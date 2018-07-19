@@ -1,5 +1,7 @@
 # MLS@IETF101
 
+[BOF Poster](https://github.com/mlswg/wg-materials/blob/master/ietf101/mls_poster.jpeg)
+
 Meeting Chat: mls@jabber.ietf.org
 
 [Meetecho Recording](https://www.youtube.com/watch?v=CgoR2Xdcaa0)
