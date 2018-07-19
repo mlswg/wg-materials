@@ -2,13 +2,11 @@
 
 [BOF Poster](https://github.com/mlswg/wg-materials/blob/master/ietf101/mls_poster.jpeg)
 
-Meeting Chat: mls@jabber.ietf.org
-
 [Meetecho Recording](https://www.youtube.com/watch?v=CgoR2Xdcaa0)
 
 [Audio Recording](https://www.ietf.org/audio/ietf101/ietf101-buckingham-20180322-1550.mp3)
 
-Minutes: 
+[Minutes](https://github.com/mlswg/wg-materials/blob/master/ietf101/minutes.md)
 
 [Blue Sheets](https://www.ietf.org/proceedings/101/bluesheets/bluesheets-101-mls-201803221550-00.pdf)
 
