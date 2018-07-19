@@ -30,4 +30,4 @@ Hums (Sean/Nick) (10min)
 
 ## Slide Deck
 
-[Combined Slides](https://datatracker.ietf.org/meeting/101/materials/slides-101-mls-mls-bof-slide-deck-00)
+[Combined Slides](https://github.com/mlswg/wg-materials/blob/master/ietf101/MLS%40IETF101%20Slides.pdf)
