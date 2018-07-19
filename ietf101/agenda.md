@@ -1,7 +1,9 @@
 # MLS@IETF101
 
 [Meeting Chat](mls@jabber.ietf.org)
+
 [Meetecho Recording](https://www.youtube.com/watch?v=CgoR2Xdcaa0)
+
 Minutes: 
 
 ## Agenda
