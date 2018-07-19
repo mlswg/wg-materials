@@ -1,5 +1,4 @@
-# Agenda
-# MLS@IETF101
+# Agenda: MLS@IETF101
 
 [BOF Poster](https://github.com/mlswg/wg-materials/blob/master/ietf101/mls_poster.jpeg)
 
