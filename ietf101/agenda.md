@@ -9,6 +9,7 @@ Minutes:
 ## Agenda
 
 Time: 15:50-17:50 Thursday
+
 Location: Buckingham
 
 Agenda bashing, Logistics (Sean/Nick) (5min)
