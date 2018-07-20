@@ -36,4 +36,4 @@ Blue Sheets: Coming soon.
 
 ## Slide Deck
 
-Combined Slides: Coming soon.
+[Combined Slides](https://github.com/mlswg/wg-materials/blob/master/ietf102/MLS%40IETF102.pdf)
