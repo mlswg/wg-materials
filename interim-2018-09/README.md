@@ -17,7 +17,7 @@ Attendees should also note the [agenda](agenda.md) (still TBD), as some topics w
 
 ## Schedule and Agenda
 
-We'll be meeting Thursday and Friday, 26-27 September 2018. Meetings will begin at TBDam and end at
+We'll be meeting Thursday and Friday, 27-28 September 2018. Meetings will begin at TBDam and end at
 approximately 5pm on each day (although we may choose to end earlier).
 
 See [the agenda](agenda.md) for full details.
