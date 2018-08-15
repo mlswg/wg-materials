@@ -46,5 +46,5 @@ TBD
 
 ## Remote Participation
 
-Jabber: mls at jabber.ietf.org
+Jabber: mls at jabber.ietf.org \
 WebEx: TBD
