@@ -43,3 +43,8 @@ TBD
 
 ## Transportation
 -->
+
+## Remote Participation
+
+Jabber: mls at jabber.ietf.org
+WebEx: TBD
