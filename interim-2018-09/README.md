@@ -7,7 +7,7 @@ hosted by TBD in Paris, France.
 
 **All Attendees -- remote or local -- must register**. Late registrations may be denied.
 
-Attendees are expected to be familiar with Working Group drafts and related issues, and to take active part in discussion. All participation takes place under the terms of the IETF [NOTE WELL](https://www.ietf.org/about/note-well.html) statement. See our [contribution guidelines](https://github.com/quicwg/base-drafts/blob/master/CONTRIBUTING.md) for more information about participating in QUIC.
+Attendees are expected to be familiar with Working Group drafts and related issues, and to take active part in discussion. All participation takes place under the terms of the IETF [NOTE WELL](https://www.ietf.org/about/note-well.html) statement. See our [contribution guidelines](https://github.com/mlswg/mls-architecture/blob/master/CONTRIBUTING.md) for more information about participating in MLS.
 
 If you wish to observe the meeting but not actively participate, you are strongly urged to attend remotely.
 
@@ -27,12 +27,9 @@ See [the agenda](agenda.md) for full details.
 
 _Tentatively_
 
-[NYU Paris](https://www.nyu.edu/paris.html)
-
-57 BD Saint-Germain
-
-75005 Paris
-
+[NYU Paris](https://www.nyu.edu/paris.html) \
+57 BD Saint-Germain \
+75005 Paris \
 France
 
 The exact location is TBD, because we need to get a headcount.  Please register using the link above.
