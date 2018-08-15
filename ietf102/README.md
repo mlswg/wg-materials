@@ -18,8 +18,10 @@
   
 10min Architecture (Emad)
 
-[Proposed MLS Architecture draft](https://datatracker.ietf.org/doc/draft-barnes-mls-protocol/)
-  
+[Proposed MLS Architecture draft](https://datatracker.ietf.org/doc/draft-omara-mls-architecture/)
+
+[Proposed MLS Protocol draft](https://datatracker.ietf.org/doc/draft-barnes-mls-protocol/)
+
 25min Handshake message ordering / server trust (Emad)
 
 25min ART vs. TreeKEM vs. both (Jon)
@@ -36,4 +38,4 @@
 
 ## Slide Deck
 
-[Combined Slides](https://github.com/mlswg/wg-materials/blob/master/ietf102/MLS%40IETF102.pdf)
+[Combined Slides](MLS%40IETF102.pdf)
