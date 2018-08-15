@@ -5,7 +5,7 @@
 * [Meeting arrangements](https://github.com/quicwg/wg-materials/blob/master/interim-18-09/README.md)
 * [MLS Architecture Draft](https://github.com/mlswg/mls-architecture)
 * [MLS Protocol Draft](https://github.com/mlswg/mls-protocol)
-* Chat: mls@jabber.ietf.org
+* Chat: mls at jabber.ietf.org
 
 ## Daily Schedule
 
