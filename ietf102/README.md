@@ -4,9 +4,9 @@
 
 [Audio Recording](https://www.ietf.org/audio/ietf102/ietf102-viger-20180719-0930.mp3)
 
-Minutes: Coming soon.
+[Minutes](minutes.md)
 
-Blue Sheets: Coming soon.
+[Blue Sheets](https://www.ietf.org/proceedings/102/bluesheets/bluesheets-102-mls-201807190930-00.pdf)
 
 ## Agenda
 
