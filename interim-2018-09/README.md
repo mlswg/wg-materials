@@ -13,7 +13,7 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](agenda.md) (still TBD), as some topics will be considered out-of-scope for this meeting.
 
-* Register for the meeting:TBD (closes XX August 2018).
+* Register for the meeting: 27 August 2018.
 
 ## Schedule and Agenda
 
