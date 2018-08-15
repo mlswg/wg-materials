@@ -1,7 +1,7 @@
 # MLS Working Group Interim Meeting - September 2018
 
 This is the arrangements page for the MLS Working Group's first Interim Face-to-Face meeting,
-hosted by TBD in Paris, France.
+hosted by NYU Paris in Paris, France.
 
 ## Register
 
@@ -20,7 +20,7 @@ Attendees should also note the [agenda](agenda.md) (still TBD), as some topics w
 We will be meeting Thursday and Friday, 27-28 September 2018. Meetings will begin at TBDam and end at
 approximately 5pm on each day (although we may choose to end earlier).
 
-See [the agenda](agenda.md) for full details.
+See the [agenda](agenda.md) for full details.
 
 
 ## Meeting Location
