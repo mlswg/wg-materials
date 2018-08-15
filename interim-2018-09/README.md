@@ -28,8 +28,11 @@ See [the agenda](agenda.md) for full details.
 _Tentatively_
 
 [NYU Paris](https://www.nyu.edu/paris.html)
+
 57 BD Saint-Germain
+
 75005 Paris
+
 France
 
 The exact location is TBD, because we need to get a headcount.  Please register using the link above.
