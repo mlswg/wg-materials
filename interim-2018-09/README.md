@@ -13,11 +13,11 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](agenda.md) (still TBD), as some topics will be considered out-of-scope for this meeting.
 
-* Register for the meeting: 27 August 2018.
+* [Register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
 
 ## Schedule and Agenda
 
-We'll be meeting Thursday and Friday, 27-28 September 2018. Meetings will begin at TBDam and end at
+We will be meeting Thursday and Friday, 27-28 September 2018. Meetings will begin at TBDam and end at
 approximately 5pm on each day (although we may choose to end earlier).
 
 See [the agenda](agenda.md) for full details.
@@ -32,7 +32,7 @@ _Tentatively_
 75005 Paris \
 France
 
-The exact location is TBD, because we need to get a headcount.  Please register using the link above.
+The exact location is TBD, because we need to get a headcount.  Please [register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
 
 <!--
 ## Network
