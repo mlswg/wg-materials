@@ -13,7 +13,7 @@ No actions.
 No actions.
 
 # 2. 10min Architecture (Emad)
-        https://datatracker.ietf.org/doc/draft-barnes-mls-protocol/
+        https://datatracker.ietf.org/doc/draft-omara-mls-architecture/
 
 rlb: Yes, the draft should provide guidance on key update defaults, but
 allow flexibility.
@@ -28,9 +28,9 @@ Stanislav Smyshlyaev: I totally agree we should provide guidance.
 
 ekr: Yes, we should provide guidance on key update, and guide people on
 how to think about the problem, too.
-    - The server should not be trusted to manage group membership, but
+ * The server should not be trusted to manage group membership, but
 it should be trusted to note group membership.
-    - We should not do anything about traffic analysis mitigation here.
+ * We should not do anything about traffic analysis mitigation here.
 
 Jon Millican: We should we include guidance that makes sense for small
 (0 - 10) and large ( 50k+) groups.
@@ -41,9 +41,9 @@ Jon M: We need to be careful, in case *any* member is compromised.
 However, I agree with you.
 
 dkg: I recommend framing it as min/max guidance.
-    - I think we shouldn't get too deep into multi-device for privacy
+ * I think we shouldn't get too deep into multi-device for privacy
 reasons.
-    - We need to include a mechanism for padding, but do not have to
+ * We need to include a mechanism for padding, but do not have to
 define specifics.
 
 Lucia B: Having a recommendation would be useful, but a strict
@@ -51,38 +51,38 @@ requirement will hinder adoption.
 
 Bob Moskowitz: Good guidance for different class of scenarioes would be
 most useful.
-    - I think group membership store is out of scope for MLS.
-    - MLS needs to include traffic analysis mitigation for itself.
+ * I think group membership store is out of scope for MLS.
+ * MLS needs to include traffic analysis mitigation for itself.
 
 Karthik: It's important to ask what to expect for group membership at
 this stage, should all members maintain the list of be able to query for it?
 
 rlb: Largely +1 on other points (from key updates)
-    - You might have a subtree of the devices under the overall tree of
+ * You might have a subtree of the devices under the overall tree of
 user members, but we don't need to get into the details of device hiding
 right now.
-    - We might use the server to be a group membership cache, but not
+ * We might use the server to be a group membership cache, but not
 require it to store the full tree (group state but no identity information)
-    - Not worried about protecting key exchange messages, but with
+ * Not worried about protecting key exchange messages, but with
 actual message protection scheme (and we should have some mechanism left
 to apps to define).
 
 ACTIONS:
-Authors will add min/max recommended guidance on key updates.
-Authors will await further discussion on whether the group membership
-server is authoritative.
-Authors will add a reserve space for traffic analysis mitigation without
+1. Authors will add min/max recommended guidance on key updates.
+2. Authors will await further discussion on whether the group membership
+3. server is authoritative.
+4. Authors will add a reserve space for traffic analysis mitigation without
 details.
 
-Room consensus is to adopt -mls-architecture as a WG item (to be
+Room consensus is to adopt [-mls-architecture](https://datatracker.ietf.org/doc/draft-omara-mls-architecture/) as a WG item (to be
 confirmed on list).
 
 # 3. 25min Handshake message ordering / server trust (Emad)
 
 rlb: The architecture document should have a clear statement on handshaking.
-    - If the client can rely on forced order delivery, then their
+ * If the client can rely on forced order delivery, then their
 implementation becomes simpler.
-    - Comfortable with server-enforced ordering, as long as don't trust
+ * Comfortable with server-enforced ordering, as long as don't trust
 to guarantee service
 
 emad: My concern with server trust is specific denials, but we can
@@ -90,28 +90,28 @@ mitigate that
 
 dkg: The requirements note the client must be able to detect
 out-of-order delivery.
-    - I don't know what this means in a distributed messaging system.
+ * I don't know what this means in a distributed messaging system.
 
 rlb: The risk here is with handshake messages that the key messages rely
 on a certain state.
-    - If they are not delivered in the same order to all clients, then
+ * If they are not delivered in the same order to all clients, then
 the clients have an inconsistent state.
-    - The goal is for clients to agree on the cryptographic state of the
+ * The goal is for clients to agree on the cryptographic state of the
 group membership.
 
 ekr: The system can't guarantee order with simultaneous updates from two
 different clients.
-    - We can guarantee messages from a given client are delivered in the
+ * We can guarantee messages from a given client are delivered in the
 same order.
-    - There are limits to what is possible, but we should be able to
+* There are limits to what is possible, but we should be able to
 detect suppressed or reordered messages.
 
 Raphael Robert: This should be part of the -mls-architecture document.
-    - We need a way for clients to depend on the order without relying
+ * We need a way for clients to depend on the order without relying
 on the server, and that is difficult.
-    - The ordering requirement comes down to ART vs. TreeKEM, and the
+ * The ordering requirement comes down to ART vs. TreeKEM, and the
 best solution is to trust the server to enforce ordering.
-    - I don't think starvation is a problem if just worried about
+ * I don't think starvation is a problem if just worried about
 handshake messages.
 
 Jonathan Lennox: The problem with starvation is genuine overload vs a
@@ -119,16 +119,16 @@ malicious server, and you should be able to detect that difference.
 
 Bob: Where's the state machine here?  We should have the state machine
 before we can talk about ordering.
-    - Starvation is DoS attacks, and we should understand that.
+ * Starvation is DoS attacks, and we should understand that.
 
 Jon Millican: It is desireable if the server could do nothing to
 compromise security short of denial of delivery.
 
 rlb: The order that is important to preserve is the order that messages
 are delivered; two-phase commit is useful there.
-    - I think it's worth adding a section on starvation, and the server
+ * I think it's worth adding a section on starvation, and the server
 can help for client-side issues.
-    - I'm surprised federation hasn't come up with this ordering
+ * I'm surprised federation hasn't come up with this ordering
 requirement.
 
 daniel franke: We can't absolute order, but we can use things like
@@ -159,10 +159,10 @@ can address when appropriate.  We should docuement it can happen, and
 what the server can do to help in the face of malicious clients.
 
 ACTIONS:
-Authors should add this to the -mls-architecture document.
-Authors should add the server enforces a delivery order, and provision
+1. Authors should add this to the -mls-architecture document.
+2. Authors should add the server enforces a delivery order, and provision
 for clients to detect ordering.
-Authors should add discussion on starvation and guidance for servers in
+3. Authors should add discussion on starvation and guidance for servers in
 the face of malicious clients.
 
 # 4. 25min ART vs. TreeKEM vs. both (Jon)
@@ -171,14 +171,14 @@ rlb: What do we need for right now to move forward: which of these do we
 want to keep?  Right now it's "use either", but that's not ideal.  They
 are mostly interchangeable, so maybe we can pick one for now and swap
 later after further analysis.
-    - I don't think there's a strong winner here.
+ * I don't think there's a strong winner here.
 
 Katriel: I would like to hear on-list from pro-federation people on
 concurrency concerns.
 
 Stansilav: We really need to analyze TreeKEM properties, and CFRG can
 help with that.
-    - Both constructions are so similar we can get away with either or
+ * Both constructions are so similar we can get away with either or
 both, but I prefer ART's construction
 
 Benjamin Beurdocuche: We should keep both in the spec for now.  Both
@@ -186,34 +186,34 @@ need more analysis, and they are so similar.
 
 Karthik: There are a lot of purposeful commonalities to keep other open
 questions orthoganal to the ratchet mechanism.
-    - We hope to address the analysis question in the coming moths.
+ * We hope to address the analysis question in the coming moths.
 
 rlb: Despite the requirement for consistency, it doesn't require
 blockchain serialization.
-    - It's important to understand the lifetime of an epoch, and when it
+ * It's important to understand the lifetime of an epoch, and when it
 is ok to discard for a later one.
-    - The delivery consistency makes this a little easier, but it
+ * The delivery consistency makes this a little easier, but it
 doesn't necessarily mean TreeKEM is better here.
-    - We should operate under the assumption both are secure, and work
+ * We should operate under the assumption both are secure, and work
 and pick the one that is better operationally.
-    - Having two makes life hard.
+ * Having two makes life hard.
 
 Ben Kaduk: Don't send the document to the IESG with both, pick one
 before submitting!
 
 Raphael Robert: ART vs TreeKEM has a big impact on passive members, and
 has impact on key update guidance.
-    - ART is expensive for passive members to calculate the group key
+ * ART is expensive for passive members to calculate the group key
 every update, that TreeKEM does not require.
 
 rlb: With regard to epochs, we have the problem for self updates as well
 as group updates.
-    - We need to have a convergence algorithm to reach a consistent state.
-    - Recommend keeping things ambiguous for now to work it out in a
+ * We need to have a convergence algorithm to reach a consistent state.
+ * Recommend keeping things ambiguous for now to work it out in a
 "hackathon" in Sept.
-    - Maybe we cross the trees: If we think updates are super-frequent,
+  * Maybe we cross the trees: If we think updates are super-frequent,
 we use TreeKEM to keep them efficient and ART for adds/removes?
-    - The keys are derived differently, but they are still public keys.
+ * The keys are derived differently, but they are still public keys.
 
 Katriel: /facepalm
 
@@ -238,11 +238,11 @@ ekr: If the group is always ratcheting, then keeping around an unused
 key is not an actual risk.
 
 rlb: I agree we should get something in the -mls-protocol document.
-    - Comparing the key schedule, the "killer app" is the reduced
+ * Comparing the key schedule, the "killer app" is the reduced
 storage (favoring group ratcheting)
-    - Not sure the ordering will be a big problem.
-    - We should keep one of these and swap it out if needed.
-    - I recommend the signature be mandatory.
+ * Not sure the ordering will be a big problem.
+ * We should keep one of these and swap it out if needed.
+ * I recommend the signature be mandatory.
 
 Benjamin B: I would like the signature for handshake messages, but maybe
 not for content messages.
@@ -266,8 +266,7 @@ Jonathan Lennox: If you want per-participant signatures, you'll need
 that key which will be **much** larger that these keys.
 
 ACTIONS:
-
-Authors to discuss amongst themselves about next steps.
+1. Authors to discuss amongst themselves about next steps.
 
 # 6. 25min Authentication (Richard)
 
@@ -296,9 +295,9 @@ the transcript of the changes.
 
 Benjamin B: I don't like signing things with a long-term identity key,
 but we could get better by having ephemeral signature keys.
-    - For denialability if we disconnect the identity key from the group
+ * For denialability if we disconnect the identity key from the group
 key (??).
-    - In general, this should not impede progress.
+ * In general, this should not impede progress.
 
 rlb: These schemes for denialability and PCS are additive, so we can
 assume we have long-term identity keys for now and add short-term
@@ -306,7 +305,7 @@ signature keys later.
 
 Stanislav Smyshlyaev: If we have long-term identity keys, then these
 proposals are fine.
-    - Do we want to give recommendations for users that want to be truly
+ * Do we want to give recommendations for users that want to be truly
 anonymous (e.g., provide an OOB mechanism)?
 
 rlb: The authentication server is mostly separate, so the credential
@@ -319,17 +318,17 @@ protect privacy cases.
 Raphael Robert:  The attacker might be able to compromise group key and
 identity keys with local access, but the mostly separated architecture
 protects from most other parallel attacks.
-    - The only pratcial approach is to have optional denialabity in
+ * The only pratcial approach is to have optional denialabity in
 order to move forward for now.
 
 dkg: Potential user experience confusion in SIGMA because of a success
 in one part but a failure in another, unless we expect "all or none" for
 validation.
-    - We should add guidance for what happens for partial SIGMA failures.
+* We should add guidance for what happens for partial SIGMA failures.
 
 # 7. Working Group Actions
 
-The consensus in the room to adopt the -mls-protocol document in the WG.
+The consensus in the room to adopt the [-mls-protocol](https://datatracker.ietf.org/doc/draft-barnes-mls-protocol/) draft in the WG.
 
 # A. 25min A.O.B
 
