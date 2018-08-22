@@ -25,14 +25,12 @@ See the [agenda](agenda.md) for full details.
 
 ## Meeting Location
 
-_Tentatively_
-
-[NYU Paris](https://www.nyu.edu/paris.html) \
-57 BD Saint-Germain \
-75005 Paris \
+[INRIA](https://www.inria.fr/en/) \
+23 Avenue d'Italie \
+75013 Paris \
 France
 
-The exact location is TBD, because we need to get a headcount.  Please [register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
+Please [register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
 
 <!--
 ## Network
