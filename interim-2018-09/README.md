@@ -26,7 +26,7 @@ See the [agenda](agenda.md) for full details.
 ## Meeting Location
 
 [INRIA](https://www.inria.fr/en/) \
-2 rue Simone IFF \ 
+2 rue Simone IFF \
 Paris 75012 \
 France
 
