@@ -32,12 +32,17 @@ France
 
 Please [register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
 
-<!--
-## Network
 
 ## Accommodation
 
-TBD
+Use your favorite search engine to find any hotel near Bercy, Gare de Lyon, or Bastille, as they are all convenient.
+French hotel chains of note are:
+* Novotel
+* Ibis
+* CitizenM
+
+<!--
+## Network
 
 ## Transportation
 -->
