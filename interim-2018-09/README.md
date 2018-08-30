@@ -13,7 +13,7 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](agenda.md) (still TBD), as some topics will be considered out-of-scope for this meeting.
 
-* [Register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
+* Registraiton is now closed.
 
 ## Schedule and Agenda
 
@@ -29,9 +29,6 @@ See the [agenda](agenda.md) for full details.
 2 rue Simone IFF \
 Paris 75012 \
 France
-
-Please [register for the meeting](https://docs.google.com/forms/d/e/1FAIpQLSfaENyumUAIw0c0Z5WhHITRG9AkWZwfZJUe9Qfj4mDpR_WY4w/viewform).
-
 
 ## Accommodation
 
