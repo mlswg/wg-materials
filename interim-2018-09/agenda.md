@@ -25,7 +25,7 @@ The current spec is ambivalent between the two.
 * Doesn’t need an encryption primitive (cf. Handshake Encryption)
 #### Pro TreeKEM:
 * Mergeable updates (but we said we’ll assume ordering)
-* O(1) processing by handshake message recipients\
+* O(1) processing by handshake message recipients
 
 Are we ready to commit to TreeKEM?
 
@@ -59,13 +59,13 @@ _2018-08-27_ \
 Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
 On the one hand, avoid double-join\
 On the other hand, fracture the tree / more tree math\
-Which trade-offs do people prefer?\
+Which trade-offs do people prefer?
 
 ### IETF 103 Hackathon Planning
 _2018-08-27_ \
 What parts of the spec are firming up enough to where we can try to get interop?\
 Who is willing to work on stacks?\
-What interop testing would we be able to do?\
+What interop testing would we be able to do?
 * Test vectors
 * Passing live messages
 * Should we develop a framework, e.g., a standard CLI interface?
