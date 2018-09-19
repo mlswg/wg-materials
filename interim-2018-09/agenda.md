@@ -10,12 +10,15 @@
 ## MLS Dashboard
 
 ### Architecture Updates
+_2018-08-27_ \
 No updates to this document since the first revision. Need reviewers to give it a read, see how well it represents current thinking, e.g.:
 * What services the server provides, e.g., sequencing
 * Exactly what information is exposed to the server
-* Chairs to recruit some reviewers
+
+Chairs to recruit some reviewers
 
 ### ART vs. TreeKEM
+_2018-08-27_ \
 The current spec is ambivalent between the two.
 #### Pro ART:
 * Smaller messages by ~2X
@@ -27,40 +30,48 @@ The current spec is ambivalent between the two.
 Are we ready to commit to TreeKEM?
 
 ### Authentication
-We need an authentication layer here.
-Handshake messages and content messages.
-PKI or identity keys or rotating identity keys.
+_2018-08-27_ \
+We need an authentication layer here. \
+Handshake messages and content messages. \
+PKI or identity keys or rotating identity keys. \
 Barnes presented an outline at IETF 102, but it needs to be made concrete.
 
 ### Message Protection
+_2018-08-27_ \
 Beurdouche presented some proposals at IETF 102.\
 Need to update / finalize PR.
 
 ### Handshake Encryption
-DKG noted at IETF 102 that it would be good if the server could not tell what handshake messages are being sent, or distinguish handshake messages from content messages. \
-We would obviously need to define an encryption scheme.\
-Syntax\
-What keys are used in what circumstances.\
-There are also some larger architectural implications.\
-UserAdd is basically impossible, at least in any way that authenticates the roster.\
-If we want indistinguishability, sequencing requirements may extend to content.\
-Need a worked-out proposal to evaluate trade-offs, decide what is worth doing.\
+_2018-08-27_ \
+DKG noted at IETF 102 that it would be good if the server could not tell what handshake messages are being sent, or distinguish handshake messages from content messages.
+
+We would obviously need to define an encryption scheme:
+* Syntax
+* What keys are used in what circumstances
+
+There are also some larger architectural implications:
+* UserAdd is basically impossible, at least in any way that authenticates the roster.
+* If we want indistinguishability, sequencing requirements may extend to content.
+Need a worked-out proposal to evaluate trade-offs, decide what is worth doing.
 
 ### Remove without double-join
+_2018-08-27_ \
 Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
 On the one hand, avoid double-join\
 On the other hand, fracture the tree / more tree math\
 Which trade-offs do people prefer?\
 
 ### IETF 103 Hackathon Planning
+_2018-08-27_ \
 What parts of the spec are firming up enough to where we can try to get interop?\
 Who is willing to work on stacks?\
 What interop testing would we be able to do?\
-Test vectors\
-Passing live messages\
-Should we develop a framework, e.g., a standard CLI interface?\
+* Test vectors
+* Passing live messages
+* Should we develop a framework, e.g., a standard CLI interface?
 
 ### Formal Analysis
+_ 2018-08-27_ \
 What parts of the spec are firming up enough to start modeling?\
 Where is more specificity required?\
 Who is working on modeling?\
