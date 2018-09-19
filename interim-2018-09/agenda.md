@@ -71,7 +71,7 @@ What interop testing would we be able to do?\
 * Should we develop a framework, e.g., a standard CLI interface?
 
 ### Formal Analysis
-_ 2018-08-27_ \
+_2018-08-27_ \
 What parts of the spec are firming up enough to start modeling?\
 Where is more specificity required?\
 Who is working on modeling?\
