@@ -38,13 +38,14 @@ The current spec is ambivalent between the two.
 * Mergeable updates (but we said we’ll assume ordering)
 * O(1) processing by handshake message recipients
 
-Are we ready to commit to TreeKEM?
+_Are we ready to commit to TreeKEM?_
 
 ### Authentication
 _2018-08-27_ \
-We need an authentication layer here. \
-Handshake messages and content messages. \
-PKI or identity keys or rotating identity keys. \
+We need an authentication layer here.
+* Handshake messages and content messages.
+* PKI or identity keys or rotating identity keys.
+
 Barnes presented an outline at IETF 102, but it needs to be made concrete.
 
 ### Message Protection
@@ -74,7 +75,7 @@ _2018-08-27_ \
 Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
 On the one hand, avoid double-join\
 On the other hand, fracture the tree / more tree math\
-Which trade-offs do people prefer?
+_Which trade-offs do people prefer?_
 
 ### IETF 103 Hackathon Planning
 _2018-08-27_ \
@@ -90,4 +91,4 @@ _2018-08-27_ \
 What parts of the spec are firming up enough to start modeling?\
 Where is more specificity required?\
 Who is working on modeling?\
-How can the rest of us help?
+_How can the rest of us help?_
