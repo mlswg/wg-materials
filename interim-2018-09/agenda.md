@@ -16,13 +16,13 @@ No updates to this document since the first revision. Need reviewers to give it 
 * Chairs to recruit some reviewers
 
 ### ART vs. TreeKEM
-The current spec is ambivalent between the two.\
+The current spec is ambivalent between the two.
 #### Pro ART:
 * Smaller messages by ~2X
 * Doesn’t need an encryption primitive (cf. Handshake Encryption)
 #### Pro TreeKEM:
 * Mergeable updates (but we said we’ll assume ordering)
-* O(1) processing by handshake message recipients
+* O(1) processing by handshake message recipients\
 Are we ready to commit to TreeKEM?
 
 ### Authentication
@@ -33,7 +33,7 @@ Barnes presented an outline at IETF 102, but it needs to be made concrete.
 
 ### Message Protection
 Beurdouche presented some proposals at IETF 102.\
-Need to update / finalize PR.\
+Need to update / finalize PR.
 
 ### Handshake Encryption
 DKG noted at IETF 102 that it would be good if the server could not tell what handshake messages are being sent, or distinguish handshake messages from content messages. \
