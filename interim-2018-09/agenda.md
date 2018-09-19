@@ -23,7 +23,7 @@ The current spec is ambivalent between the two.\
 #### Pro TreeKEM:
 * Mergeable updates (but we said we’ll assume ordering)
 * O(1) processing by handshake message recipients
-* Are we ready to commit to TreeKEM?
+Are we ready to commit to TreeKEM?
 
 ### Authentication
 We need an authentication layer here.
