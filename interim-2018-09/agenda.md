@@ -15,7 +15,7 @@ No updates to this document since the first revision. Need reviewers to give it 
 * What services the server provides, e.g., sequencing
 * Exactly what information is exposed to the server
 
-**AIs From MLS@102**
+**AIs From MLS@102**\
 Based on -mls-archtiecture draft discussion
 * Authors will add min/max recommended guidance on key updates.
 * Authors will await further discussion on whether the group membership server is authoritative.
