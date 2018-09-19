@@ -15,7 +15,18 @@ No updates to this document since the first revision. Need reviewers to give it 
 * What services the server provides, e.g., sequencing
 * Exactly what information is exposed to the server
 
-Chairs to recruit some reviewers
+**AIs From MLS@102**
+Based on -mls-archtiecture draft discussion
+* Authors will add min/max recommended guidance on key updates.
+* Authors will await further discussion on whether the group membership server is authoritative.
+* Authors will add a reserve space for traffic analysis mitigation without details.
+
+Based on Handshake message ordering / server trust point discussion
+* Authors should add this to the -mls-architecture document.
+* Authors should add the server enforces a delivery order, and provision for clients to detect ordering.
+* Authors should add discussion on starvation and guidance for servers in the face of malicious clients.
+
+Chairs to recruit some reviewers!
 
 ### ART vs. TreeKEM
 _2018-08-27_ \
@@ -41,6 +52,10 @@ _2018-08-27_ \
 Beurdouche presented some proposals at IETF 102.\
 Need to update / finalize PR.
 
+**AIs from 103@IETF102**
+
+Authors to discuss amongst themselves about next steps
+
 ### Handshake Encryption
 _2018-08-27_ \
 DKG noted at IETF 102 that it would be good if the server could not tell what handshake messages are being sent, or distinguish handshake messages from content messages.
@@ -51,7 +66,7 @@ We would obviously need to define an encryption scheme:
 
 There are also some larger architectural implications:
 * UserAdd is basically impossible, at least in any way that authenticates the roster.
-* If we want indistinguishability, sequencing requirements may extend to content.
+* If we want indistinguishability, sequencing requirements may extend to content.\
 Need a worked-out proposal to evaluate trade-offs, decide what is worth doing.
 
 ### Remove without double-join
