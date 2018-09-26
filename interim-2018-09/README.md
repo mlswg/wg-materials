@@ -46,5 +46,21 @@ French hotel chains of note are:
 
 ## Remote Participation
 
-Jabber: mls at jabber.ietf.org \
-WebEx: TBD
+Jabber: mls at jabber.ietf.org
+WebEx Thurdsday:
+
+Topic: MLS Interim: 27 September 2018 \
+Date and Time: \
+Thursday, September 27, 2018 9:00 am, Europe Summer Time (Paris, GMT+02:00) \
+Event number: 319 045 099 \
+Event password: M_L_S \
+Event address for attendees: https://ietf.webex.com/ietf/onstage/g.php?MTID=e861e952e312e44c5157667adca7d0438 \
+
+WebEx Friday:
+
+Topic: MLS Interim: 28 September 2018 \
+Date and Time: \
+Friday, September 28, 2018 9:00 pm, Europe Summer Time (Paris, GMT+02:00) \
+Event number: 317 221 066 \ \
+Event password: M_L_S
+Event address for attendees: https://ietf.webex.com/ietf/onstage/g.php?MTID=e99b6769fde40209e2f39685ff933860f
