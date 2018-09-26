@@ -2,11 +2,11 @@
 
 **NOTE**: Attendees (remote or onsite) must register; see the meeting arrangements page.
 
-* [Meeting arrangements](https://github.com/quicwg/wg-materials/blob/master/interim-18-09/README.md)
+* [Meeting arrangements](https://github.com/mlswg/wg-materials/tree/master/interim-2018-09)
 * [MLS Architecture Draft](https://github.com/mlswg/mls-architecture)
 * [MLS Protocol Draft](https://github.com/mlswg/mls-protocol)
 * Chat: mls at jabber.ietf.org
-* [Webex details](https://github.com/quicwg/wg-materials/blob/master/interim-18-09/README.md)
+* [Webex details](https://github.com/mlswg/wg-materials/tree/master/interim-2018-09)
 
 ## MLS Dashboard
 
