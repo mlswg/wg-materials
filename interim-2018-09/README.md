@@ -55,7 +55,7 @@ Date and Time: \
 Thursday, September 27, 2018 9:00 am, Europe Summer Time (Paris, GMT+02:00) \
 Event number: 319 045 099 \
 Event password: M_L_S \
-Event address for attendees: https://ietf.webex.com/ietf/onstage/g.php?MTID=e861e952e312e44c5157667adca7d0438 \
+Event address for attendees: https://ietf.webex.com/ietf/onstage/g.php?MTID=e861e952e312e44c5157667adca7d0438
 
 WebEx Friday:
 
