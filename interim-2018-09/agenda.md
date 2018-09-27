@@ -35,6 +35,7 @@ Chairs to recruit some reviewers!
 
 ### ART vs. TreeKEM
 _2018-08-27_ \
+Slides: https://github.com/mlswg/wg-materials/blob/master/interim-2018-09/TreeKEM.pdf
 The current spec is ambivalent between the two.
 #### Pro ART:
 * Smaller messages by ~2X
