@@ -67,13 +67,14 @@ We need an authentication layer here.
 Barnes presented an outline at IETF 102, but it needs to be made concrete.
 
 _2018-09-27_ \
-Slides: https://docs.google.com/presentation/d/1-f7JjzxCCrF1gngwI0bDAAD4Vo5eYVsVuAUrk7hckCA \
+Slides: https://docs.google.com/presentation/d/1-f7JjzxCCrF1gngwI0bDAAD4Vo5eYVsVuAUrk7hckCA
 
 
 ### Message Protection
 _2018-08-27_ \
 Beurdouche presented some proposals at IETF 102.\
 Need to update / finalize PR.
+
 _2018-09-27_ \
 Slides: https://github.com/mlswg/wg-materials/blob/master/interim-2018-09/2018_09%20Interim%20-%20MLS%20Message%20Protection.pdf
 
