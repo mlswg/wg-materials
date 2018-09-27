@@ -35,7 +35,6 @@ Chairs to recruit some reviewers!
 
 ### ART vs. TreeKEM
 _2018-08-27_ \
-Slides: https://github.com/mlswg/wg-materials/blob/master/interim-2018-09/TreeKEM.pdf \
 The current spec is ambivalent between the two.
 #### Pro ART:
 * Smaller messages by ~2X
@@ -46,28 +45,37 @@ The current spec is ambivalent between the two.
 
 _Are we ready to commit to TreeKEM?_
 
+_2018-09-27_ \
+Slides: https://github.com/mlswg/wg-materials/blob/master/interim-2018-09/TreeKEM.pdf
+
 #### Remove without double-join
 _2018-08-27_ \
-Slides: https://docs.google.com/presentation/d/1CoPfOEbTHfSuYb4zzdCeseEBTJRQVb90JmtvjaljBVM \
 Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
 On the one hand, avoid double-join\
 On the other hand, fracture the tree / more tree math\
 _Which trade-offs do people prefer?_
 
+_2018-09-27_ \
+Slides: https://docs.google.com/presentation/d/1CoPfOEbTHfSuYb4zzdCeseEBTJRQVb90JmtvjaljBVM
 
 ### Authentication
 _2018-08-27_ \
-Slides: https://docs.google.com/presentation/d/1-f7JjzxCCrF1gngwI0bDAAD4Vo5eYVsVuAUrk7hckCA \
 We need an authentication layer here.
 * Handshake messages and content messages.
 * PKI or identity keys or rotating identity keys.
 
 Barnes presented an outline at IETF 102, but it needs to be made concrete.
 
+_2018-09-27_ \
+Slides: https://docs.google.com/presentation/d/1-f7JjzxCCrF1gngwI0bDAAD4Vo5eYVsVuAUrk7hckCA \
+
+
 ### Message Protection
 _2018-08-27_ \
 Beurdouche presented some proposals at IETF 102.\
 Need to update / finalize PR.
+_2018-09-27_ \
+Slides: https://github.com/mlswg/wg-materials/blob/master/interim-2018-09/2018_09%20Interim%20-%20MLS%20Message%20Protection.pdf
 
 **AIs from 103@IETF102**
 
