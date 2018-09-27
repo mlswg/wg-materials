@@ -43,6 +43,7 @@ _Are we ready to commit to TreeKEM?_
 
 ### Authentication
 _2018-08-27_ \
+Slides: https://docs.google.com/presentation/d/1-f7JjzxCCrF1gngwI0bDAAD4Vo5eYVsVuAUrk7hckCA
 We need an authentication layer here.
 * Handshake messages and content messages.
 * PKI or identity keys or rotating identity keys.
@@ -73,6 +74,7 @@ Need a worked-out proposal to evaluate trade-offs, decide what is worth doing.
 
 ### Remove without double-join
 _2018-08-27_ \
+Slides: https://docs.google.com/presentation/d/1CoPfOEbTHfSuYb4zzdCeseEBTJRQVb90JmtvjaljBVM
 Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
 On the one hand, avoid double-join\
 On the other hand, fracture the tree / more tree math\
