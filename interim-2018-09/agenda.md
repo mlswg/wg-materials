@@ -10,6 +10,10 @@
 
 ## MLS Dashboard
 
+### Ways of Working
+
+How we want to do PRs.
+
 ### Architecture Updates
 _2018-08-27_ \
 No updates to this document since the first revision. Need reviewers to give it a read, see how well it represents current thinking, e.g.:
@@ -40,6 +44,15 @@ The current spec is ambivalent between the two.
 * O(1) processing by handshake message recipients
 
 _Are we ready to commit to TreeKEM?_
+
+#### Remove without double-join
+_2018-08-27_ \
+Slides: https://docs.google.com/presentation/d/1CoPfOEbTHfSuYb4zzdCeseEBTJRQVb90JmtvjaljBVM
+Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
+On the one hand, avoid double-join\
+On the other hand, fracture the tree / more tree math\
+_Which trade-offs do people prefer?_
+
 
 ### Authentication
 _2018-08-27_ \
@@ -72,13 +85,6 @@ There are also some larger architectural implications:
 * If we want indistinguishability, sequencing requirements may extend to content.\
 Need a worked-out proposal to evaluate trade-offs, decide what is worth doing.
 
-### Remove without double-join
-_2018-08-27_ \
-Slides: https://docs.google.com/presentation/d/1CoPfOEbTHfSuYb4zzdCeseEBTJRQVb90JmtvjaljBVM
-Barnes proposed on list a way to use TreeKEM to do remove without causing a double-join.\
-On the one hand, avoid double-join\
-On the other hand, fracture the tree / more tree math\
-_Which trade-offs do people prefer?_
 
 ### IETF 103 Hackathon Planning
 _2018-08-27_ \
