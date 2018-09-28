@@ -111,3 +111,6 @@ What parts of the spec are firming up enough to start modeling?\
 Where is more specificity required?\
 Who is working on modeling?\
 _How can the rest of us help?_
+
+_2018-09-28_ \
+Slides: https://github.com/mlswg/wg-materials/blob/master/interim-2018-09/2018_09%20Interim%20-%20AuthMLS.pdf
