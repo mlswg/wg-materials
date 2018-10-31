@@ -16,7 +16,7 @@ Blue Sheets: TBD
 
 Big decision was to focus on TreeKEM.  [-protocol](https://www.ietf.org/rfcdiff?url1=draft-ietf-mls-protocol-01&url2=draft-ietf-mls-protocol-02) was impacted as the ART text was dropped.
 
-### 20min Architecture Updates and Outstanding Issues (Emad)
+### 15min Architecture Updates and Outstanding Issues (Emad)
 
 Review new version and attempt to address comments: Joel:[msg](https://mailarchive.ietf.org/arch/msg/mls/p2_SCN5en7Md1FTxTnyht33oH0c); Issues: [I#29](https://github.com/mlswg/mls-architecture/issues/29), [I#35](https://github.com/mlswg/mls-architecture/issues/29); and PRs: [PR#36](https://github.com/mlswg/mls-architecture/pull/36) and [PR#40](https://github.com/mlswg/mls-architecture/pull/40).
 
@@ -32,13 +32,13 @@ SignCryption?
 
 Adapting Hierarchical Key Derivation for Ephemeral Signatures in MLS?
 
-### 25min Message Protection (Benjamin)
+### 15min Handshake encryption and efficiency considerations  (Richard & Raphael)
+
+### 15min Message Protection (Benjamin)
 
 ## Thursday
 
 ### 05min Administrivia (Chairs)
-
-### 20min Handshake Encryption (Richard)
 
 ### 20min Formal Anaylsis Update ?
 
