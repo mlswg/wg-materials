@@ -10,6 +10,8 @@ Blue Sheets: TBD
 
 ## Monday
 
+Time: 13:50-15:50 (UTC+7), [Chitlada 2](https://datatracker.ietf.org/meeting/103/floor-plan?room=chitlada-2#2nd-floor) - [other time zones](https://www.timeanddate.com/worldclock/fixedtime.html?msg=TLS%40IETF103&iso=20181105T1350&p1=28&ah=2)
+
 ### 10min Administrivia (Chairs)
 
 ### 05min Interim Recap (Chairs)
@@ -37,6 +39,8 @@ Adapting Hierarchical Key Derivation for Ephemeral Signatures in MLS?
 ### 15min Message Protection (Benjamin)
 
 ## Thursday
+
+Time: 11:20-12:20 (UTC+7), [Chitlada 1](https://datatracker.ietf.org/meeting/103/floor-plan?room=chitlada-1#2nd-floor) - [other time zones](https://www.timeanddate.com/worldclock/fixedtime.html?msg=MLS%40IETF103&iso=20181108T1120&p1=28&ah=1)
 
 ### 05min Administrivia (Chairs)
 
