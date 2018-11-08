@@ -63,7 +63,3 @@ Time: 11:20-12:20 (UTC+7), [Chitlada 1](https://datatracker.ietf.org/meeting/103
 ### 20min Formal Anaylsis Update ?
 
 ### 10min Next Steps
-
-## Slide Deck
-
-Slides to be uploaded.
