@@ -14,6 +14,8 @@ Time: 13:50-15:50 (UTC+7), [Chitlada 2](https://datatracker.ietf.org/meeting/103
 
 ### 10min Administrivia (Chairs)
 
+[Chairs' Slides](MLS%40IETF103_agenda.pdf)
+
 ### 05min Interim Recap (Chairs)
 
 Big decision was to focus on TreeKEM.  [-protocol](https://www.ietf.org/rfcdiff?url1=draft-ietf-mls-protocol-01&url2=draft-ietf-mls-protocol-02) was impacted as the ART text was dropped.
@@ -22,11 +24,17 @@ Big decision was to focus on TreeKEM.  [-protocol](https://www.ietf.org/rfcdiff?
 
 Review new version and attempt to address comments: Joel:[msg](https://mailarchive.ietf.org/arch/msg/mls/p2_SCN5en7Md1FTxTnyht33oH0c); Issues: [I#29](https://github.com/mlswg/mls-architecture/issues/29), [I#35](https://github.com/mlswg/mls-architecture/issues/29); and PRs: [PR#36](https://github.com/mlswg/mls-architecture/pull/36) and [PR#40](https://github.com/mlswg/mls-architecture/pull/40).
 
+[Emad's Slides](MLS%40IETF103_architecture.pdf)
+
 ### 30min TreeKEM: double-join (Richard & Raphael)
 
 See [PR#67](https://github.com/mlswg/mls-protocol/pull/67)
 
+[Richar's Slides](MLS%40IETF103_double_joins.pdf)
+
 ### 20min Authentication (Richard & Nadim)
+
+[Richar's Slides](MLS%40IETF103_tree_slides.pdf)
 
 Katz-Yung vs. SIGMA?
 Do we cache the whole tree?
@@ -34,9 +42,11 @@ SignCryption?
 
 Adapting Hierarchical Key Derivation for Ephemeral Signatures in MLS?
 
+[Nadim's Slides](MLS%40ietf103_HKDMLS.pdf)
+
 ### 15min Handshake encryption and efficiency considerations  (Richard & Raphael)
 
-### 15min Message Protection (Benjamin)
+[R&R's Slides](MLS%40IETF103-efficiency.pdf)
 
 ## Thursday
 
@@ -44,7 +54,15 @@ Time: 11:20-12:20 (UTC+7), [Chitlada 1](https://datatracker.ietf.org/meeting/103
 
 ### 05min Administrivia (Chairs)
 
+[Chairs' Slides](MLS%40IETF103_agenda.pdf)
+
+### 15min Message Protection (Benjamin)
+
+[Benjamin's Slides](MLS%40ietf103_message_protection.pdf)
+
 ### 20min Formal Anaylsis Update ?
+
+### 10min Next Steps
 
 ## Slide Deck
 
