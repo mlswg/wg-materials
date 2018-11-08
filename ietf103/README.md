@@ -56,7 +56,7 @@ Time: 11:20-12:20 (UTC+7), [Chitlada 1](https://datatracker.ietf.org/meeting/103
 
 [Chairs' Slides](MLS%40IETF103_agenda.pdf)
 
-### 15min Message Protection (Benjamin)
+### 15min Message Protection (Richard)
 
 [Benjamin's Slides](MLS%40ietf103_message_protection.pdf)
 
