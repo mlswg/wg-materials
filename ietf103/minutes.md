@@ -176,4 +176,73 @@ with handshake encryption?
 
 # MLS@IETF103 2018-10-08 @ 11:20 UTC+07:00
 
-Mintues go here.
+Agenda Bashing
+
+Formal Analysis presentation may be short
+ 
+MLS Message protection (Richard Barnes)
+
+Russ – Is the goal per message PFS or per Key Schedule?  Might not update the keyschedule for every message?
+
+RB – New key and nonce derived for every message
+
+EKR – Throw away keys after every message.  No problem with using an application key with more than one message,  but the key schedule would generate the same nonce so the key schedule would have to change, 
+
+RB – loose state lead to nonce re-use problem (?)
+
+EKR – replace the empty string in HKDF expanded with random value  to avoid accidental key reuse.
+
+DKG – you could also introduce 4 – 8 octets when process starts to avoid state problem
+
+EKR – Also failure of auth with GCM not as bad because of additional signing, 
+
+
+EKR - Generate per message chains for every-one in system.   Hold epoch 0 for a while, do not know when you can destroy a key.  Syncrhonization is required to tighten up PFS.
+
+EKR – If you generate keys on demand in a naieve way then you open up for worse PFS properties.
+
+RB – Per sender ratcheting and trees can be better
+
+
+Emad OMara – Group chain is more complicated for sybncrhonization
+
+RB – ordering does not need to be enforce,  In order to get PF you need sync
+
+EKR – In a large group the amount of bogus keys you have to generate is high.  Not everyone sends during every update step, but you need to generate keys and store them.  I’m still in faveo of persender chains,  need tree.
+
+
+DKG – TO get forward secrecy every copy of the key needs to be destroyed.  Offline participants may not be able to delete.  Are we overengineering? With large groups the cost is high and PFS is difficult to achieve. 
+
+
+EO – Something to put into architecture draft
+
+
+RB – seems like consensus is on per sender chaining
+
+
+DKG -  there is no place for the nonce in the application struct might need to add one
+
+
+EKR – Why are cipher suites are tied to curves
+
+RB – idea was to bundle all the parameters in one code point
+
+Ben Kaduk – Have one joint and keep it oiled.
+
+
+EKR – Signature construction – added for cut and paste attack,  not a bad design, but we have no analysis on if the is the right thing include in the signature.  Do we need more statue.   Is it possible to get 2 groups with same group id, could allow for ut and paste ID). Just needs more analysis
+
+DKG – ins addition to formal analysis  we have failed to include the right context in messages.   Can you confuse someone if you reply to Richard or Eric.  Could add dag,  but we don’t know how to render.  DAG is better. 
+
+RB – send PR
+
+
+Several people have read document, but we read more. 
+
+
+Who will review protocol doc: EKR and Chris offer to review.
+
+Who will review arch:  DKG ekr an RB
+
+
+Interim:  Before of after RWC 2019 (January)  - San Jose
