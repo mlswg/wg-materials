@@ -6,7 +6,7 @@
 
 [Minutes](minutes.md)
 
-Blue Sheets: TBD
+[Blue Sheets](https://www.ietf.org/proceedings/103/bluesheets/bluesheets-103-mls-201811051610-00.pdf)
 
 ## Monday
 
