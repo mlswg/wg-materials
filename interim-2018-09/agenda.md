@@ -7,6 +7,7 @@
 * [MLS Protocol Draft](https://github.com/mlswg/mls-protocol)
 * Chat: mls at jabber.ietf.org
 * [Webex details](https://github.com/mlswg/wg-materials/tree/master/interim-2018-09#remote-participation)
+* [Bluesheets](https://www.ietf.org/proceedings/interim-2018-mls-01/bluesheets/bluesheets-interim-2018-mls-01-201809270900-00.pdf)
 
 ## MLS Dashboard
 
