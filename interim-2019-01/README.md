@@ -40,4 +40,4 @@ Jabber: mls at jabber.ietf.org
 
 WebEx Monday: TBD
 
-WebEx Friday: TBD
+WebEx Tuesday: TBD
