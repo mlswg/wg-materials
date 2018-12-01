@@ -13,7 +13,7 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](agenda.md) (still TBD), as some topics will be considered out-of-scope for this meeting.
 
-* Registraiton is TBD
+* Registration is TBD
 
 ## Schedule and Agenda
 
@@ -21,7 +21,6 @@ We will be meeting Monday and Tuesday, 14-15 January 2019. Meetings will begin a
 approximately 1700 on each day (although we may choose to end earlier).  These times are PT, which is UTC−8.
 
 See the [agenda](agenda.md) for full details.
-
 
 ## Meeting Location
 
