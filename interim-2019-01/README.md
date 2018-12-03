@@ -13,7 +13,7 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](agenda.md) (still TBD), as some topics will be considered out-of-scope for this meeting.
 
-* Registration is TBD
+* Registration is [Open](https://docs.google.com/forms/d/e/1FAIpQLSfOZgcriWPXjLRc8UUWHT3X0kHsAjYL_IaUbxwvocbz_7_nRQ/viewform).
 
 ## Schedule and Agenda
 
