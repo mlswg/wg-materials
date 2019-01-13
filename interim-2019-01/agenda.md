@@ -35,6 +35,14 @@ Discussion started in Bangkok, but we should try to either advance it or close i
 
 Including the GroupState in the key schedule is probably more maximal than we need to be.  Discuss alternatives.
 
+# Lazy handshake messages (Robert)
+
+Follow-up on the proposal from the mailinglist.
+
+# Proxy re-encryption for server assist (Robert, Beurdouche)
+
+Presentation of how PRE could reduce bandwidth while preserving at least confidentiality (possibly more).
+
 # User-initiated Add (Barnes)
 
 Look at what it would take to solve this and decide whether we want to solve it.
