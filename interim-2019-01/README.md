@@ -11,7 +11,7 @@ Attendees are expected to be familiar with Working Group drafts and related issu
 
 If you wish to observe the meeting but not actively participate, you are strongly urged to attend remotely.
 
-Attendees should also note the [agenda](agenda.md) (still TBD), as some topics will be considered out-of-scope for this meeting.
+Attendees should also note the [agenda](agenda.md), as some topics will be considered out-of-scope for this meeting.
 
 * Registration is closed.
 
