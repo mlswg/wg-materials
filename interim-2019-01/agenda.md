@@ -55,7 +55,8 @@ Determine scope and dispatch to existing docs / new docs.
 
 # ACK / NACK / State management / Re-init (Millican)
 
-See [Issue92](https://github.com/mlswg/mls-protocol/issues/92).
+See [Issue92](https://github.com/mlswg/mls-protocol/issues/92). \
+See [Issue93](https://github.com/mlswg/mls-protocol/issues/93).
 
 # Analysis Updates (Bhargavan, Cremers, Beurdouche)
 
