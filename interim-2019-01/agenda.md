@@ -6,7 +6,7 @@
 * [MLS Architecture Draft](https://github.com/mlswg/mls-architecture)
 * [MLS Protocol Draft](https://github.com/mlswg/mls-protocol)
 * Chat: mls at jabber.ietf.org
-* Webex details: TBD
+* [WebEx Details](README.md)
 
 ## Agenda
 
@@ -21,11 +21,13 @@ Review / level-set where we are at.
 
 # Encryption of Welcome messages (Barnes)
 
-Insert link to PR.
+See [Issue89](https://github.com/mlswg/mls-protocol/issues/89). \
+See [PR80](https://github.com/mlswg/mls-protocol/pull/80).
 
 # Add-in-Place (Barnes)
 
-Insert link to PR.
+See [Issue86](https://github.com/mlswg/mls-protocol/issues/86). \
+See [PR84](https://github.com/mlswg/mls-protocol/pull/84).
 
 # Efficiency of the core protocol (Robert, Barnes)
 
@@ -33,7 +35,7 @@ Discussion started in Bangkok, but we should try to either advance it or close i
 
 # Simplifying the key schedule?  (Omara)
 
-Including the GroupState in the key schedule is probably more maximal than we need to be.  Discuss alternatives.
+See [Issue90](https://github.com/mlswg/mls-protocol/issues/90).
 
 # Lazy handshake messages (Robert)
 
@@ -45,7 +47,7 @@ Presentation of how PRE could reduce bandwidth while preserving at least confide
 
 # User-initiated Add (Barnes)
 
-Look at what it would take to solve this and decide whether we want to solve it.
+See [Issue91](https://github.com/mlswg/mls-protocol/issues/91).
 
 # Federation considerations (Omara)
 
@@ -53,11 +55,7 @@ Determine scope and dispatch to existing docs / new docs.
 
 # ACK / NACK / State management / Re-init (Millican)
 
-In early discussions, there were requests for features of this character:
-
-- Are ACKs / NACKs signed / encrypted / MAC'ed?
-- How does an endpoint figure out if it has lost sync?
-- How does an endpoint recover from desync?
+See [Issue92](https://github.com/mlswg/mls-protocol/issues/92).
 
 # Analysis Updates (Bhargavan, Cremers, Beurdouche)
 
