@@ -42,6 +42,8 @@ Presentation of how PRE could reduce bandwidth while preserving at least confide
 
 See [Issue91](https://github.com/mlswg/mls-protocol/issues/91).
 
+# Terminology (Benjamin)
+
 # Efficiency of the core protocol (Robert, Barnes)
 
 Discussion started in Bangkok, but we should try to either advance it or close it out.  *Might* be possible to make things work with log state.
