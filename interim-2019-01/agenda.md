@@ -44,6 +44,10 @@ See [Issue91](https://github.com/mlswg/mls-protocol/issues/91).
 
 # Terminology (Benjamin)
 
+# Analysis Updates (Bhargavan, Cremers, Beurdouche)
+
+See [Slides](2018Q1_MLS Interim-KB-AnalysisStatus.pdf).
+
 # Efficiency of the core protocol (Robert, Barnes)
 
 Discussion started in Bangkok, but we should try to either advance it or close it out.  *Might* be possible to make things work with log state.
@@ -60,10 +64,6 @@ Determine scope and dispatch to existing docs / new docs.
 
 See [Issue92](https://github.com/mlswg/mls-protocol/issues/92). \
 See [Issue93](https://github.com/mlswg/mls-protocol/issues/93).
-
-# Analysis Updates (Bhargavan, Cremers, Beurdouche)
-
-[[ this space intentionally left blank ]]
 
 # Implementation & Interop Updates (Robert, Beurdouche)
 
