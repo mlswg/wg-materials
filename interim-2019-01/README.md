@@ -58,7 +58,7 @@ Meeting password: ftw!
 WebEx Tuesday:
 
 Topic: MLS Interim: 15 January 2019 \
-Date: Thursday, December 13, 2018 \
+Date: Tuesday, January 15, 2019 \
 Time: 9:00 am  |  Pacific Standard Time (San Francisco, GMT-08:00)  |  8 hrs \
-Meeting number (access code): 641 729 930 \
-Meeting password: ftw!
+Meeting number (access code): 317 416 284 \
+Meeting password: (there is no pwd -srlsl there is no pwd)
