@@ -46,7 +46,7 @@ See [Issue91](https://github.com/mlswg/mls-protocol/issues/91).
 
 # Analysis Updates (Bhargavan, Cremers, Beurdouche)
 
-See [Slides](2018Q1_MLS Interim-KB-AnalysisStatus.pdf).
+See [Slides](2018Q1_MLS Interim-KB-AnalysisStatus.pdf)
 
 # Efficiency of the core protocol (Robert, Barnes)
 
