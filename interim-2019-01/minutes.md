@@ -36,6 +36,8 @@ A bad actor can send a malicious message that desynchronises the group. rlb++: o
 The protocol requires that all participants see things in the same order. Clients might need some retry logic so that if they send a message and it gets bounced by the server. At minimum, the protocol operations could just fail, but we’re not sure whether the protocol needs to handle “if your update failed then retry it”.
 
 ### Encryption of Welcome Messages (rlb)
+[Slides](https://github.com/mlswg/wg-materials/blob/master/interim-2019-01/2018Q1_MLS%20Interim-rlbpdf.pdf)
+
 This is a PR that’s already landed. The change is that it now encrypts the messages to a UserInitKey instead of sending it in clear.
 
 ekr: it uses an opaque key_id instead of hashing the key. Does a key id correspond to a family of ids? We could just take the UserInitKeys and make each UserInitKey correspond to one ciphersuite. However, raphael points out that you need to handle the case that the server doesn’t speak that one. rlb: each curve is paired with one hash algorithm and one symmetric algorithm. ekr: this isn’t sensible for symmetric algorithms.
@@ -90,6 +92,8 @@ AI(Katriel + ekr + JonC): write an issue and a pull request to add something to 
 
 ### Proxy Re-encryption
 
+[Slides](https://github.com/mlswg/wg-materials/blob/master/interim-2019-01/2018Q1_MLS%20Interim-RR-PRE-00.pdf)
+
 Raphael presented an idea for using proxy re-encryption to encrypt metadata that the server stores for clients.
 
 Karthik: if you’re only serving ephemeral keys there isn’t that much metadata. Can’t you just store them in plaintext? Raphael: yes, for just public keys, but what about the roster? Jon: but you need the roster in most apps, especially if you have fan-out. Raphael: yes, but fan-out is ephemeral: you can forget it afterwards. Storing the roster permanently is different.
@@ -109,6 +113,8 @@ Nadim: should there be something explicit in the spec about roster confidentiali
 Raphael: there is one e2e messaging system that doesn’t hold metadata on the server, and that is Signal. Everyone else, as far as we know, has the group list on the server and on top of that there is no particular cryptographic assurance of who is in the group.
 
 ### Lazy handshake messages (Raphael)
+
+[Slides](https://github.com/mlswg/wg-materials/blob/master/interim-2019-01/2018Q1_MLS%20Interim-RR-LazyUpdate-00.pdf)
 
 We inherit the ART multidevice mode: each device had its own leaf, and adding and removing members results in multiple handshake messages. The roster is a list of devices, not members. Some logic is pushed to the application layer (knowing which devices correspond to “Richard”).
 
@@ -168,6 +174,8 @@ At the arch level we can define “user”, “device”, “member” etc. Kart
 
 ### Analysis (Karthik)
 
+[Slides](https://github.com/mlswg/wg-materials/blob/master/interim-2019-01/2018Q1_MLS%20Interim-KB-AnalysisStatus.pdf)
+
 We introduce version counters of users, bumped whenever they update. This gives you a fine-grained compromise definition: if version 4 of A is compromised then you don’t know the key if only version 3 of A is in the tree (forward secrecy), and s/4/2/ for PCS.
 
 Yevgeniy: what about inactive users? We have to deal with them somehow: either by removing them or by having them send a legitimate update.
@@ -185,11 +193,14 @@ ekr: if I join a group, how do I get the signing keys that people are using righ
 Richard: what about having different timescales for credential rotation and for in-group signature key updates? AI(Karthik): take a discussion to the list about the signature key rotations, the problem, and various solutions.
 
 ### Malicious insiders
+
 One thing Karthik et al are not looking at is malicious insiders in the group. At the very least it would be good to document what things they can or cannot do. We don’t have a good understanding of what can happen. ekr: can we distinguish between detecting malicious behaviour versus detecting if afterwards. Katriel: it would be nice to reason about all the other security properties e.g. confidentiality.
 
 Analysis scope: Karthik is working on symbolic proofs for TreeKEM and then verified F* TreeKEM stuff. We also need to look at group management.
 
 ### ACKs and NACKs (JonM)
+
+[Slides](https://github.com/mlswg/wg-materials/blob/master/interim-2019-01/2018Q1_MLS%20Interim-JM-ACK_NACK_Re-sync.pdf)
 
 How should we acknowledge successful receipt and decryption of message: should they be in the protocol, how should we authenticate them, and so on? Should we include retransmissions in the protocol?
 
@@ -204,6 +215,8 @@ We discussed for a while what implementations should do with respect to automate
 Benjamin has a proposal for updating the key schedule and simplifying it. The conclusion is that if we can clean it up and prove it secure then let’s do it.
 
 ### Federation (Emad)
+
+[Slides](https://github.com/mlswg/wg-materials/blob/master/interim-2019-01/2018Q1_MLS%20Interim-EO-Federation-00.pdf)
 
 The point of federation is to allow users who are using different applications operated by separate entities to securely exchange messages. These applications can already communicate with each other, but they lack an encryption layer. To help here, we’d need to define the wire format for all user messages and define the protocol between the client to the server (both delivery and authentication), including how to retrieve userinitkey and identity key and how to fan out the group messages. Discovery would not be covered here. Clients would need to know how to retrieve prekeys from servers operated by different entities (either the client issues multiple requests for different servers and fan out user messages, or the Google server would proxy prekeys from the Mozilla prekey.
 
