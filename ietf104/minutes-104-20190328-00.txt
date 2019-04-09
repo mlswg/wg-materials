@@ -1,0 +1,77 @@
+# MLS minutes
+
+## Protocol (Raphael/Richard)
+
+Ekr: Aim for encrypting as much as possible. Revealing ContentType 
+complicates analysis, and also lets malicious delivery service drop 
+specific ContentType messages on the floor.
+Raphael: Handshake messages are ordered, application messages are not.
+Ekr: Dropping ContentType might require trial decryption.
+DKG: Any metadata reveal leaks information about structure to delivery 
+service subject to traffic analysis. Need to make this intention clear 
+in architecture document. Not OK with revealing ContentType.
+Ben: Not chartered to encrypt as much as possible, unlike TLS.
+Karthik: We want keys for handshake to be different from keys from 
+application data. Should encrypt sender and generation. See no strong 
+reason to encrypt ContentType. Data messages do have some ordering.
+Benjamin: Could do trial decryption and hide both. Could also encrypt 
+ContentType under secret known to the group.
+DKG: Be wary of PII.
+RLB: Uncertainty about ContentType encryption.
+Joel: Might be possible to infer messages based on timing. Traffic 
+analysis will leak a lot.
+DKG: We should still encrypt regardless of traffic analysis. Caution 
+against "too bad, so sad, traffic analysis wins."
+Benjamin: Should be out of scope for now. Let's keep ContentType in the 
+clear.
+DKG: If we keep ContentType in the clear we prohibit people who have the 
+capability of mitigating against traffic analysis.
+Emad: Handshake messages are add/remove/update? Updates are not ordered.
+Joel: Make this an extension for the traffic analysis mitigations?
+Ekr: Table for now.
+(RLB will file an issue to prevent handshake message suppression.)
+
+Joel: Why is old epoch not valid?
+Raphael: (missed)
+Karthik: Do not understand security implications. Need to understand 
+invariants that are true for the tree at any state in time.
+RLB: Consider simplifying algebraically. Not sure about current 
+complexity implications.
+
+## Federation (Emad/Raphael)
+
+Ekr: Interested.
+DKG: Interested -- in scope?
+Sean: Yes, in scope at the crypto layer. Not at the application layer.
+Jon: Could be complicated.
+Colin: Interested.
+DKG: More interested in different clients and different delivery 
+services. Not saying it should not happen in the browser. If we focus on 
+browser security, multi-party security might make security posture 
+worse.
+Karthik/RLB: (missed)
+DKG: Not all devices are currently exposed to the delivery service -- do 
+we want to change that?
+Raphael: Working on documenting multi-device modes. If we're comfortable 
+with mode where individual devices are hidden behind virtual devices, 
+that can be incorporated into the federation model.
+Karthik: Notion of members is an abstract concept in the model. Hiding 
+devices is a great idea. If hiding devices at the federation level 
+(Google or Facebook) then the story changes.
+
+## Deniability (Sofia)
+
+Raphael: There are some cheap ways we can build deniability into MLS.
+Nalini: Deniability should be optional, e.g., for enterprise use cases.
+DKG: Regulators who want this may be understaffed.
+RLB: Needs to be optional.
+Sean: Worth exploring.
+
+## Security Analysis (Karthik)
+
+MT: More rigorous process can slow things down (ref. QUIC).
+RLB: Also felt pain in interop. Interested in more stability.
+
+## Next Interim Planning
+
+Will take place around Eurocrypt.

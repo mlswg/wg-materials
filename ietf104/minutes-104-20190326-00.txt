@@ -1,0 +1,96 @@
+IETF 104 MLS Tuesday sesion 13:50-15:00
+=======================================
+
+chairing:
+Sean Turner
+Nick Sullivan
+
+Daniel Kahn Gillmor (dkg) notetaking
+
+Richard Barnes: interop reportback
+    Cisco Wire Google TrailofBits INRIA
+    test vectors and math are covered, no live interop yet
+
+Nick Sullivan: interim reportback
+    adjacent to RWC in Mountainview
+    successful interim
+    several proposals arose from that, some will be sent to the list
+
+Benjamin Beurdouche: architecture
+    -- no comments from the floor
+
+Richard Barnes: protocol
+    Sean: ECIES → HPKE does introduce a dependency
+    Richard: i'm hoping CFRG can process it fast
+    ekr: just confirming about key separation: you deliver the ephemeral parts to each node up the tree
+    Jonathan Lennox: will garbage collection actually work in real life?  will you actually get to clean up?
+    dkg: please delay fancy garbage collection compound operations until there is a demonstrated need for them
+    ekr: TLS mix-and-match isn't universally applicable -- signature schemes are bound to a hash, for example.
+    Martin Thomson: Look at the units that you're dealing with in the protocol, work from there
+    ekr: don't tie the bulk encryption to the key establishment
+    Richard: we might need two AEAD slots
+
+Raphael: Server intitiated removal
+    Sean: clarify the justification for wanting this:
+     * inactivity
+     * firing
+     * not paying their bill
+     * closes their account
+    Richard Barnes: for Proposal 1, we'd need to stuff "external authorities" into the group state
+    Raphael: yes, but there are dynamic management issues there
+    ekr: as long as everyone knows that a partition is happening, i'm OK with that
+    Katriel Cohn-Gordon: can we punt this to the application layer?  that seems better than doing it in this protocol.
+    ekr: proposal 2 might not work for a group that has group administrators (only admins can evict) -- if those admins are offline, 
+    dkg: UX/UI example in proposal 2 is misguided: Alice should still be included in the UX/UI report
+    Katriel: isn't group admin policy is set at the application layer
+    ekr: if it is, that's back to Proposal 1
+    ekr: if everyone is running the same software, then the software update channel can be used for these revocations
+    Joel Alwen: on every update, we need to add new entropy to the shared keying.  I prefer proposal 2, because if it's proposal 1, then we're letting the server mix entropy into the shared key.
+    Richard: external entropy doesn't seem catastrophic because the entropy will be KDFed as well
+    Joel: in a PCS scenario, where the adversary knows both the shared state, and has compromised the server, then the entropy shouldn't come from the server because it would allow them to retain access to the shared secret.
+    Richard: if you have any non-trivial removal policy (other than "anyone can remove") then we need to define it clearly so it can be agreed upon.  Do we need to define an extension point to define how to communicate about policy?
+    Britta Hale: agree with Joel about the new entropy.  About proposal 2, the server can't enforce the removal of any group member
+    Raphael: that's true for all of these
+    dkg: does the external party need to know when the change has happened?
+    Ben Kaduk: perhaps the auditing requirement requires an auditing agent that is a member of the group?
+    ekr: gating the deletion on member participation doesn't seem like a good outcome: can we resolve the concern about entropy by requiring a key update process?
+    Jonathan Lennox: what does the "roster" mean?  different participants might have different views of the list.  how does the server get that?
+    Raphael: the only way to do do that would be if handshake messages are in the clear
+    Ben Kaduk: how does this work in terms of epoch?  how can the server do this safely?
+    Katriel: is this discussion about non-compliant clients?  if that's the case.  If we're talking about non-compliant clients at the application layer, those participants could violate any number of assumptions (e.g. tweeting out the content of the message backlog)
+    Richard: if we're talking about resistant clients, they could also resist member removal by backchanneling the content to the removed user
+    Jonathan Hoyland: you could do some cryptographic approaches to prove that every member has removed the member.
+    Richard: if we punt this to the app layer, i'm happy to do that, and to leave the protocol draft as is.
+    Joel: if we go with proposal 2, do we want to allow an application-layer "reason for removal" field to the remove message?
+    Richard: ??? (sorry, dkg missed this)
+    Raphael: sounds like we want to go with proposal 2 for now
+    Richard: i'm asking Benjamin (Beurdouche) to file an issue on the architecture draft to explain that this is not yet solved.
+
+Raphael presents Version Negotiation
+    Jonathan Lennox: do we want versions as well as extensions?  how can an upgrade work?
+    Sean Turner: seems like we need to have a upgrade path for long-term upgrades?
+    Richard Barnes: we can always build a new group and switch to it at the application layer
+    ekr: can we start with a simpler problem: can we figure out the rule of how do we switch over to a new crypto protocol?  or how to add emojis?  or upgrading from text to MIME?
+    Katriel: can we not solve that problem?  in many contexts, you unilaterally control all endpoints, and can upgrade them all together?
+    ekr: it's non-trivial for anything but webapps
+    dkg: this is the IETF, we do try to deal with the open world problem: if we want to claim that MLS will only work in a scenario where you can ensure that a flag day is possible, then that needs to be in the architecture document
+    Richard: sometimes we do this by trying to document invariants
+    Martin: in QUIC, you need to have some way of signalling which version you intend to have, and that needs to be invariant across all versions.  in TLS, the invariants are about the shape of the ClientHello.  In MLS, you might need to think about how to build a new group in parallel, …
+    Nick: thinking about ciphersuites might be a good place to start this work?
+    dkg: the implication of the proposed change is that adding new users who don't support the version will be a new error mode in the UX, and that an existing group has no explicit mechanism for upgrading a group to a new version.
+    Jonathan Lennox: you could just make a new group
+    Martin: then you have to figure out how to get the group to safely/securely migrate to the new group
+    Anya (via XMPP): what about the blanking problem or double-join?
+    Raphael: those concerns seem unrelated to me
+    Nick: moving forward, let's get these changes incorporated for static versioning of a single discussion and please go back and look at how a ciphersuite upgrade (not a version upgrade) would work.
+
+Richard presents key upgrade
+   Karthik: there is value in having the hash of the tree, and also value in having the hash of the transcript.  If you agree on the initial tree and the transcript, you should be agreeing on the current tree.  this means we have two different representation of the current state.
+   Richard: we want to understand how does this work for late joiners?
+   Jonathan Hoyland: what does "late joiner" mean? does it imply everyone but the first two?
+   Joel: does this include the application data as well?
+   Richard: no, just the handshake hashes
+   Richard: there's some question about whether we might be able to just remove the transcript hash if it covers roughly the same information
+   Karthik: it's possible that multiple handshakes lead to the same state, but some past transcripts might include insecure nodes or have some other issues. so how we got here might be relevant to the security analysis.
+   Richard: doing some strong security work in each client over the transcript might be too far, but we don't have a clear analysis of the risk there, so that's probably not something that we shouldn't remove from the protocol entirely.
+   Richard: sounds like there are no serious objections to the current proposal (which does not remove the transcript hash), so i'll go ahead and try to merge that PR.

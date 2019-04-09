@@ -1,0 +1,25 @@
+Tuesday: 1350-1500
+
+- Interop Update (Richard/Raphael)
+- Review of the Interim (Chairs)
+- Architecture (Benjamin)
+	Brief summary of changes
+	Outstanding Issues
+- Protocol (Richard/Raphael)
+	Brief summary of changes
+	Simplify Key Schedule (Issue #90)
+	Server initial removal (Issue #104)
+	Version negotiation (Issue #105)
+
+Thursday: 0900-1030
+
+- Protocol (Richard/Raphael)
+	Use common framing (Issue #101)
+	Lazy Updates (Issue #TBD)
+	Decouple curves from symmetric+hash identifiers (Issue #95)
+- Federation (Emad/Raphael)
+- Deniability (Sofia)
+- Security Analysis (Karthik)
+- Next Interim Planning
+
+
