@@ -33,7 +33,13 @@ Rosenthaler Straße 40-41
 
 ## Accommodation
 
-TBD
+Recommended hotels:
+
+Amano Hotel
+Auguststraße 43, 10119 Berlin, Germany
+
+Monbijou Hotel
+Monbijoupl. 1, 10178 Berlin, Germany
 <!--
 ## Network
 
