@@ -28,8 +28,9 @@ See the [agenda](agenda.md) for full details.
 
 Address:
 
-Rosenthaler Straße 40-41 
-10178 Berlin
+Happy Pigeons GmbH
+Erich-Weinert-Straße 78
+10439 Berlin
 
 ## Accommodation
 
