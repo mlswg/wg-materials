@@ -15,6 +15,8 @@
 
 Review / level-set where we are at.
 
+[Slides](https://github.com/mlswg/wg-materials/raw/master/interim-2019-05/MLS%40MAY2019Interim.pdf)
+
 # Review of open issues (Chairs)
 
 [Architecture](https://github.com/mlswg/mls-architecture/issues) \
