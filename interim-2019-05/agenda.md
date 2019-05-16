@@ -27,5 +27,6 @@ Review / level-set where we are at.
 # New Tree Application Key Schedule (Alwen)
 
 See [Pull 146](https://github.com/mlswg/mls-protocol/pull/146).
+[Slides](https://github.com/mlswg/wg-materials/raw/master/interim-2019-05/Tree-Based%20Application%20Key%20Schedule.pdf)
 
 # Brainstorm open items, review schedule
