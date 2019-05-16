@@ -32,6 +32,10 @@ Happy Pigeons GmbH
 Erich-Weinert-Straße 78
 10439 Berlin
 
+WiFi:
+ID: HP Co-Working Members
+Password: WorkingPigeons2018
+
 ## Accommodation
 
 Recommended hotels:
