@@ -31,4 +31,6 @@ Review / level-set where we are at.
 See [Pull 146](https://github.com/mlswg/mls-protocol/pull/146).
 [Slides](https://github.com/mlswg/wg-materials/raw/master/interim-2019-05/Tree-Based%20Application%20Key%20Schedule.pdf)
 
+# Multi-Device Mode (Robert)
+
 # Brainstorm open items, review schedule
