@@ -1,12 +1,16 @@
 # Agenda: MLS@IETF105
 
+## Administrivia
+
+[NOTE WELL](https://www.ietf.org/about/note-well.html)
+
 [Meetecho](https://www.meetecho.com/ietf105/mls/)
 
 Audio: TBD
 
 [Minutes](minutes.md)
 
-Blue Sheets:TBD
+Blue Sheets: TBD
 
 # Architecture
 
