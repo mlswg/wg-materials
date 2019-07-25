@@ -20,6 +20,13 @@ Blue Sheets: TBD
 
 [Protocol Draft](https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/)
 
+* Summary of changes since the last interim (Barnes)
+* Lazy Operations (Barnes)
+* Server-initiated Add (Barnes)
+* Which HPKE? (Beurdouche)
+* Non-Destructive Add (Beurdouche)
+* Tree Signing (Beurdouche)
+
 # Federation
 
 [Federation Draft](https://datatracker.ietf.org/doc/draft-omara-mls-federation/)
