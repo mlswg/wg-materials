@@ -37,7 +37,7 @@ Blue Sheets: TBD
 
 # Security Analysis
 
-[User Authentication within Groups](https://github.com/mlswg/wg-materials/blob/master/ietf105/slides-105-mls-sessa-user-authentication-within-groups-00.pdf)
+[Slides](https://github.com/mlswg/wg-materials/blob/master/ietf105/slides-105-mls-sessa-user-authentication-within-groups-00.pdf)
 
 # Next Interim
 
