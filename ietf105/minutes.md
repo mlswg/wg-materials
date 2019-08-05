@@ -47,8 +47,9 @@ RLB: Is the proposal to generate new factors for the key schedule?
 
 BH: Group-level authentication vs Signature authentication.
 
-* For group-level, derive one more key (but requires keeping at
-least two keys in memory, breaking fwd secrecy)
+* "For group-level, derive one more key. Using currently existing
+keys requires keeping at least two keys in memory, breaking fwd
+secrecy. Identity-level requires updates to the signature keys.
 
 RLB: What about authenticating devices?
 
