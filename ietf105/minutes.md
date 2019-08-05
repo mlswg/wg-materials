@@ -14,22 +14,22 @@ Eric Rescorla (EKR): I just want to understand the security
 property we are striving for here.  (paraphrasing) Are we
 protecting from an attacker from outside the group?
 
-Britta Hale (BH): The attacker is from outside of group.
+* Britta Hale (BH): The attacker is from outside of group.
 
 Joe Hall (JH): What is an Epoch?
 
-BH: Represents the current version of the group key, as
+* BH: Represents the current version of the group key, as
 defined in draft-ietf-mls-protocol.
 
 DKG: Are users interested the QR "dance" and how often
 would they need to do it?
 
-BH: There is some interest yes.  If we want to allow for
+* BH: There is some interest yes.  If we want to allow for
 deniability, this can help enable that.
 
 EKR: What guidance can we give the user?  How often?
 
-BH: We can give recommendation if concerned about cross-comparing
+* BH: We can give recommendation if concerned about cross-comparing
 with QR codes and how to do that correctly.  If you do it once you
 can verify for all previous epochs.  There is also some
 work that might come out that would allow an untrusted server to
@@ -39,7 +39,7 @@ JH: Not as concerned about user-level; group-level is hard.  Maybe
 we should think about and not necessarily design specifically
 towards it.
 
-BH: If we want it we should make some plans, and we could try
+* BH: If we want it we should make some plans, and we could try
 ratcheting the signature key.
 
 RLB: Is the proposal to generate new factors for the key schedule?
@@ -60,7 +60,7 @@ group.
 RLB: Related to exporters -- we could do something to "off-ramp"
 and escape from the key schedule, and would this fit in there?
 
-* BH: Yes, it could.
+BH: Yes, it could.
 
 RLB: Might be good to write this up as its own I-D.  But, whether
 this is a PR or and I-D this seems useful.
