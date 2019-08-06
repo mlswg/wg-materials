@@ -69,7 +69,7 @@ this is a PR or and I-D this seems useful.
 
 # draft-ietf-mls-protocol (Richard Barnes)
 
-Benjamin Berdouche (BB): (re:consuming secrets)
+Benjamin Beurdouche (BB): (re:consuming secrets)
 We throw away the secret as soon as we derive the secret.
 
 RLB: We should clarify that in the document.
@@ -215,14 +215,14 @@ RLB: Were never trying to stop that user mode.
 RLB: Will take another shot at this.
 
 
-## Which HPKE (Benjamin Berdouche)
+## Which HPKE (Benjamin Beurdouche)
 
 RLB: The short answer (to adding context) is we should
 put in the symmetric inputs (cheap), but not the extra
 PKI initiator (expensive).
 
 
-## Non-destructive Add (Benjamin Berdouche)
+## Non-destructive Add (Benjamin Beurdouche)
 
 RLB: I think we should just do this.
 
@@ -242,7 +242,7 @@ RR: This is very interesting, but concerned about the complexity.
 This is orthogonal to laziness.
 
 
-## Tree Signing (Benjamin Berdouche)
+## Tree Signing (Benjamin Beurdouche)
 
 EKR: The (question mark) nodes are wrong (i.e., liars)? I'm not
 sure I'm concerned in wrong trees but right leaves.  I care about
