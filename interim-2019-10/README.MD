@@ -13,7 +13,7 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](agenda.md), as some topics will be considered out-of-scope for this meeting.
 
-Registration will close at 2359 UTC on 13 October 2019.  Please register [here](https://forms.gle/FAB8jUpLXo6tmaC58).
+Registration has closed.
 
 ## Schedule and Agenda
 
