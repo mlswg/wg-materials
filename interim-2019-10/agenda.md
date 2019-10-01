@@ -28,6 +28,8 @@ Slides: TBD
 
 # Protocol
 
+[Protocol Slides](https://drive.google.com/file/d/1hT6W_4mIJBJI9nbbc0qDXz0DWRe3yW86/view?usp=sharing)
+
 # Federation
 
 # Formal Analysis
