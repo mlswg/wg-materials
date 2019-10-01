@@ -9,6 +9,8 @@
 * Chat: mls at jabber.ietf.org
 * [WebEx Details](README.md)
 
+NOTEWELL: https://www.ietf.org/about/note-well/
+
 ## Agenda
 
 # Recap of WG status (Chairs)
