@@ -17,7 +17,7 @@ NOTEWELL: https://www.ietf.org/about/note-well/
 
 Review / level-set where we are at.
 
-Slides: TBD
+Hoping to get to WGLC after IETF 106 in Singapore for Architecture and Protocol I-Ds.  We will pause or about 6 months while security researchers do their analysis.
 
 # Review of open issues (Chairs)
 
