@@ -46,6 +46,14 @@ TBD
 
 Jabber: mls at jabber.ietf.org
 
+# PLEASE USE THIS LINK:
+
+Tuesday Meet:
+
+https://meet.google.com/rbe-hsde-cci?hs=151
+
+# SEE LINK ABOVE WE ARE SWITCHING TO MEET BECAUSE THAT IS WHAT THE ROOM IS WIRED FOR.
+
 WebEx Tuesday:
  
 [Meeting link](https://ietf.webex.com/ietf/j.php?MTID=mcc881216e9ce2341f57d9b4b66bf1faf) \
