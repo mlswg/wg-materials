@@ -52,6 +52,10 @@ Tuesday Meet:
 
 https://meet.google.com/rbe-hsde-cci?hs=151
 
+Wednesday Meet:
+http://meet.google.com/tpr-fozf-gzk
+
+
 # SEE LINK ABOVE WE ARE SWITCHING TO MEET BECAUSE THAT IS WHAT THE ROOM IS WIRED FOR.
 
 WebEx Tuesday:
