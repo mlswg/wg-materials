@@ -17,4 +17,12 @@ Jabber: mls at jabber.ietf.org
 
 # PLEASE USE THIS LINK FOR WEBEX:
 
-TBD
+Meeting link:
+https://ietf.webex.com/ietf/j.php?MTID=m2e0d1a76482036fdb38c7d1f5fdd3cc6
+
+Meeting number:
+647 391 156
+
+Password:
+ve2i8niw
+
