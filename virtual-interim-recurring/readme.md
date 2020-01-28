@@ -4,7 +4,7 @@ This is the arrangements page for the MLS Working Group's virtual interim meetin
 
 ## Schedule and Agenda
 
-Wednesday January 18th to Wednesday March 18th from 14:00 to 15:00 GMT
+Wednesday January 29th to Wednesday March 18th from 14:00 to 15:00 GMT
 
 The agenda will consist of the open issues in the current documents:
 https://github.com/mlswg/mls-architecture/issues
