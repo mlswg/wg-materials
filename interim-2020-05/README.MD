@@ -50,6 +50,6 @@ Jabber: mls at jabber.ietf.org
 
 Thursday & Friday
 
-Meeting link: https://ietf.webex.com/ietf/j.php?MTID=m0b5981050dd8f6e923fde6b5fb5835c1
-Meeting number: 649 124 258
+Meeting link: https://ietf.webex.com/ietf/j.php?MTID=m0b5981050dd8f6e923fde6b5fb5835c1 \
+Meeting number: 649 124 258 \
 Password: 3vgMBV5FuS5
