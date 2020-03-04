@@ -13,14 +13,14 @@ If you wish to observe the meeting but not actively participate, you are strongl
 
 Attendees should also note the [agenda](https://github.com/mlswg/wg-materials/blob/master/interim-2020-05/agenda.md) (TBD currently), as some topics will be considered out-of-scope for this meeting.
 
-Registration will close.
+Please register here: [REGISTER](https://forms.gle/9dcdtyMGeNojGT33A). Registration will close 16 April.
 
 ## Schedule and Agenda
 
 We will be meeting for two days 7-8 May 2020 (Thursday-Frida. Meetings will begin at 0900 and end at
 approximately 1700 (although we may choose to end earlier).  These times are CEST, which is UTC+2.
 
-See the agenda (TBD currently) for full details.
+See the [agenda ](https://github.com/mlswg/wg-materials/blob/master/interim-2020-05/agenda.md)(TBD currently) for full details.
 
 ## Meeting Location
 
