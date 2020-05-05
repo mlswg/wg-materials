@@ -19,11 +19,10 @@ Jabber: mls at jabber.ietf.org
 # PLEASE USE THIS LINK FOR WEBEX:
 
 Meeting link:
-https://ietf.webex.com/ietf/j.php?MTID=m7822117cbe3d654736b2dbaf0078e353
+https://ietf.webex.com/ietf/j.php?MTID=m63952522cec12df41ae368653b637a24
 
 Meeting number:
 613 852 570
 
 Password:
 vSNx34e9uQ8
-
