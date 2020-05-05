@@ -8,10 +8,8 @@ This is the arrangements page for the MLS Working Group's virtual interim meetin
 
 The agenda will consist of the open issues in the current documents:
 
-https://github.com/mlswg/mls-architecture/issues
-
-https://github.com/mlswg/mls-protocol/issues
-
+https://github.com/mlswg/mls-architecture/issues \
+https://github.com/mlswg/mls-protocol/issues \
 https://github.com/mlswg/mls-federation/issues
 
 ## Remote Participation
