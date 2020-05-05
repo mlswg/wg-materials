@@ -1,14 +1,17 @@
-# MLS Working Group Virtual Interim Recurring Meetings - January 2020 - March 2020
+# MLS Working Group Virtual Interim Recurring Meetings - May 2020 - June 2020
 
 This is the arrangements page for the MLS Working Group's virtual interim meetings to address open issues.
 
 ## Schedule and Agenda
 
-Wednesday January 29th to Wednesday March 18th from 14:00 to 15:00 GMT
+[Bi-weekly](https://datatracker.ietf.org/meeting/upcoming): Tuesday May 5th to Tuesday June 16th from 16:00 to 17:00 UTC 
 
 The agenda will consist of the open issues in the current documents:
+
 https://github.com/mlswg/mls-architecture/issues
+
 https://github.com/mlswg/mls-protocol/issues
+
 https://github.com/mlswg/mls-federation/issues
 
 ## Remote Participation
@@ -18,11 +21,11 @@ Jabber: mls at jabber.ietf.org
 # PLEASE USE THIS LINK FOR WEBEX:
 
 Meeting link:
-https://ietf.webex.com/ietf/j.php?MTID=m2e0d1a76482036fdb38c7d1f5fdd3cc6
+https://ietf.webex.com/ietf/j.php?MTID=m7822117cbe3d654736b2dbaf0078e353
 
 Meeting number:
-647 391 156
+613 852 570
 
 Password:
-ve2i8niw
+vSNx34e9uQ8
 
