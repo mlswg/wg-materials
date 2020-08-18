@@ -3,9 +3,9 @@
 
 # Note Well
 
-# Issuess/PRs
+# Issues/PRs
 
-Richard Barnes provided an overview of the protocol-related (draft-ietf-mls-protcool) changes since the last meeting: leverage HPKE and TLS signatures, ratcheting optional for adds, and tree optional in GroupInfo message. The remaining time was spent discussions open issues:
+Richard Barnes provided an overview of the protocol-related (draft-ietf-mls-protocol) changes since the last meeting: leverage HPKE and TLS signatures, ratcheting optional for adds, and tree optional in GroupInfo message. The remaining time was spent discussions open issues:
 
 * Reflecting reality in the key schedule: when a PSK is used, the PSK does not authenticate the new joiners know it and the GroupContext gets used in a bunch of individual derivations. Proposal is to reorder so that the joiner has to use the PSK to get the epoch secret and to add GroupContext into the epoch_secret once.
 
