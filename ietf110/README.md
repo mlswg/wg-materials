@@ -47,7 +47,7 @@ GitHub: https://github.com/mlswg/mls-architecture
 
 Status Update
 
-### Deniability - Sofia Cell
+### Deniability - Sofia Celi
 
 GitHub: https://github.com/claucece/draft-celi-mls-deniability/blob/main/draft-celi-mls-deniability.md
 
