@@ -52,3 +52,8 @@ Status: https://github.com/mlswg/wg-materials/blob/master/ietf110/MLS%20Architec
 GitHub: https://github.com/claucece/draft-celi-mls-deniability/blob/main/draft-celi-mls-deniability.md
 
 Slides: https://github.com/mlswg/wg-materials/blob/master/ietf110/Deniability%20MLS.pdf
+
+### Cryptographic Analysis - Joel Alwen
+
+Slides: https://github.com/mlswg/wg-materials/blob/master/ietf110/Cryptographic%20AnalysIs%20of%20MLS.pdf
+
