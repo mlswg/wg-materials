@@ -45,7 +45,7 @@ I-D: https://datatracker.ietf.org/doc/draft-ietf-mls-architecture/
 
 GitHub: https://github.com/mlswg/mls-architecture
 
-Status Update
+Status: https://github.com/mlswg/wg-materials/blob/master/ietf110/MLS%20Architecture%20%40%20IETF110.pdf
 
 ### Deniability - Sofia Celi
 
