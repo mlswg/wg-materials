@@ -33,6 +33,8 @@ I-D: https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/
 
 GitHub: https://github.com/mlswg/mls-protocol
 
+Slides: https://github.com/mlswg/wg-materials/blob/master/ietf110/MLS%20Protocol%20%40%20IETF110.pdf
+
 Open Issues/Pull Requests
 Security Research
 
@@ -48,3 +50,5 @@ Status Update
 ### Deniability - Sofia Cell
 
 GitHub: https://github.com/claucece/draft-celi-mls-deniability/blob/main/draft-celi-mls-deniability.md
+
+Slides: https://github.com/mlswg/wg-materials/blob/master/ietf110/Deniability%20MLS.pdf
