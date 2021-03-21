@@ -209,7 +209,7 @@ Don't think we can drop protocol before IESG ahead of arch. Need this draft.
 Kick stuff off, sync with authors to contribute all in a row. Konrad security considerations, Usecase section Brendan looking at. Server assist Raphael nod to it. Will be a draft out of that.
 
 Ben: volunteers for parts or just everyone?
-Sean with chair hat: Organically, but with Konrad and Brendan on sections. Maybe next interim people get pinned down to look at stuff. If anyone volunteers feel free.
+Sean with chair hat on: Benjamin will reach out to Konrad and Brendan to ask for contributions on sections.
 
 ### Deniability - Sofia Celi
 
