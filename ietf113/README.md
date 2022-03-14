@@ -27,7 +27,7 @@ https://codimd.ietf.org/notes-ietf-113-mls
 - Jabber Scribe
 - Status
 
-### Protocol - Richard Barnes / Raphael Robert
+### Protocol - Richard Barnes
 
 I-D: https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/
 
@@ -44,7 +44,7 @@ GitHub: https://github.com/mlswg/mls-architecture
 
 Open Issues/Pull Requests
 
-### Federation - Rapheal Robrt
+### Federation - Rapheal Robert
 
 GitHub: https://github.com/mlswg/mls-federation
 
