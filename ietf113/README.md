@@ -44,7 +44,7 @@ GitHub: https://github.com/mlswg/mls-architecture
 
 Open Issues/Pull Requests
 
-### Federation - Rapheal Robert
+### Federation - Raphael Robert
 
 GitHub: https://github.com/mlswg/mls-federation
 
