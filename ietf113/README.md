@@ -48,4 +48,4 @@ Open Issues/Pull Requests
 
 GitHub: https://github.com/mlswg/mls-federation
 
-Resurection plan.
+Resurrection plan.
