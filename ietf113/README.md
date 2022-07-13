@@ -4,50 +4,48 @@
 
 ### Time
 
-Wednesday, March 23, 2022 @ 16:30-18:30 UTC
+Wednesday, March 23, 2022 @ 1300-1400 UTC
 
 ### Meeting Information
 
 Meetecho (a/v and chat):\
-https://meetings.conf.meetecho.com/ietf114/?group=mls&short=&item=1
+https://meetings.conf.meetecho.com/ietf113/?group=mls&short=&item=1
 
 Audio (only):\
-https://mp3.conf.meetecho.com/ietf114/mls/1.m3u
+http://mp3.conf.meetecho.com/ietf113/mls/1.m3u
 
 CodiMD (notes):\
-https://notes.ietf.org/notes-ietf-114-mls
+https://codimd.ietf.org/notes-ietf-113-mls
 
 ## Agenda
 
-### Administrivia (10min)
+### Administrivia
 
+- Virtual Meeting Tips
 - Note Well
 - Note Taker
 - Jabber Scribe
 - Status
 
-### Protocol/Architecture I-Ds (20min)
+### Protocol - Richard Barnes
 
-This agenda item is only needed if there are late WGLC comments/issues/prs or timely AD comments.
+I-D: https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/
 
-* Protocol
-  * Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/
-  * GitHub: https://github.com/mlswg/mls-protocol
-* Architecture
-  * Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-architecture/
-  *GitHub: https://github.com/mlswg/mls-architecture
+GitHub: https://github.com/mlswg/mls-protocol
 
-### Federation - Raphael Robert (40min)
+Open Issues/Pull Requests
+Security Research
 
-* I-D:
-  * Datatracker: https://github.com/mlswg/mls-federation
-  * GitHub: https://github.com/mlswg/mls-federation
-* Slides: TBD
+### Architecture - Benjamin Beurdouche
 
-### Extensions - Raphael Robert (40min)
-* I-D:
-  * Datatracker: https://github.com/mlswg/mls-extensions
-  * GitHub (coming soon): https://github.com/mlswg/mls-extensions
-* Slides: TBD
+I-D: https://datatracker.ietf.org/doc/draft-ietf-mls-architecture/
 
-### Open Mic - All (10min)
+GitHub: https://github.com/mlswg/mls-architecture
+
+Open Issues/Pull Requests
+
+### Federation - Raphael Robert
+
+GitHub: https://github.com/mlswg/mls-federation
+
+Resurrection plan.
