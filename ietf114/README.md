@@ -37,17 +37,22 @@ This agenda item is only needed if there are late WGLC comments/issues/prs or ti
   * Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-architecture/
   *GitHub: https://github.com/mlswg/mls-architecture
 
-### Federation - Raphael Robert (40min)
+### Federation - Raphael Robert (30min)
 
 * I-D:
   * Datatracker: https://github.com/mlswg/mls-federation
   * GitHub: https://github.com/mlswg/mls-federation
 * Slides: TBD
 
-### Extensions - Raphael Robert (40min)
+### Extensions - Raphael Robert (30min)
 * I-D:
   * Datatracker: https://github.com/mlswg/mls-extensions
   * GitHub (coming soon): https://github.com/mlswg/mls-extensions
+* Slides: TBD
+
+### Content Negotiation - Rohan Mahy (20min)
+* I-D:
+  * Datatracker: https://datatracker.ietf.org/doc/draft-mahy-mls-content-neg/
 * Slides: TBD
 
 ### Open Mic - All (10min)
