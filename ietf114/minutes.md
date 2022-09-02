@@ -11,32 +11,32 @@ Outline
 This agenda item is only needed if there are late WGLC comments/issues/prs or timely AD comments.
 
 ## Protocol
-Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/
+Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/ \
 GitHub: https://github.com/mlswg/mls-protocol
 
 ## Architecture
-Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-architecture/
+Datatracker: https://datatracker.ietf.org/doc/draft-ietf-mls-architecture/ \
 *GitHub: https://github.com/mlswg/mls-architecture
 
 ## Federation - Raphael Robert (30min)
-I-D:
-Datatracker: https://github.com/mlswg/mls-federation
-GitHub: https://github.com/mlswg/mls-federation
-Slides: TBD
+I-D: The Messaging Layer Security (MLS) Federation \
+Datatracker: https://github.com/mlswg/mls-federation/ \
+GitHub: https://github.com/mlswg/mls-federation \
+Slides: https://datatracker.ietf.org/meeting/114/materials/slides-114-mls-federation-extensions-00
 
 ## Extensions - Raphael Robert (30min)
-I-D:
-Datatracker: https://github.com/mlswg/mls-extensions
-GitHub (coming soon): https://github.com/mlswg/mls-extensions
+I-D: The Messaging Layer Security (MLS) Extensions \
+Datatracker: https://github.com/mlswg/mls-extensions \
+GitHub (coming soon): https://github.com/mlswg/mls-extensions \
 Slides: TBD
 * MLS Extensions can go into its own smaller documents.
 * Sean: IESG prob prefers no blank check Extension document.
 * Nobody in the room read the draft.
 
 # Content Negotiation - Rohan Mahy (20min)
-I-D:
-Datatracker: https://datatracker.ietf.org/doc/draft-mahy-mls-content-neg/
-Slides: TBD
+I-D: Content Negotiation for Message Layer Security (MLS) \
+Datatracker: https://datatracker.ietf.org/doc/draft-mahy-mls-content-neg/ \
+Slides: https://datatracker.ietf.org/meeting/114/materials/slides-114-mls-mls-content-negotiation-00
 * Nobody in the room read this document either
 * Which application formats are required and/or supported in (long lived) group
 * No builtin way to signal
