@@ -38,17 +38,16 @@ This agenda item is only needed if there are late WGLC comments/issues/prs or ti
   *GitHub: https://github.com/mlswg/mls-architecture
 
 ### Federation - Raphael Robert (30min)
-
-* I-D:
+* I-D: The Messaging Layer Security (MLS) Federation
   * Datatracker: https://github.com/mlswg/mls-federation
   * GitHub: https://github.com/mlswg/mls-federation
-* Slides: TBD
+* Slides: https://datatracker.ietf.org/meeting/114/materials/slides-114-mls-federation-extensions-00
 
 ### Extensions - Raphael Robert (30min)
-* I-D:
+* I-D: The Messaging Layer Security (MLS) Extensions
   * Datatracker: https://github.com/mlswg/mls-extensions
   * GitHub (coming soon): https://github.com/mlswg/mls-extensions
-* Slides: TBD
+* Slides: https://datatracker.ietf.org/meeting/114/materials/slides-114-mls-federation-extensions-00
 
 ### Content Negotiation - Rohan Mahy (20min)
 * I-D:
