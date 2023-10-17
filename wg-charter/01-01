@@ -1,0 +1,73 @@
+Several Internet applications have a need for group key establishment
+and message protection protocols with the following properties:
+
+o Message Confidentiality - Messages can only be read
+  by members of the group
+o Message Integrity and Authentication - Each message
+  has been sent by an authenticated sender, and has
+  not been tampered with
+o Membership Authentication - Each participant can verify
+  the set of members in the group
+o Asynchronicity - Keys can be established without any
+  two participants being online at the same time
+o Forward secrecy - Full compromise of a node at a point
+  in time does not reveal past messages sent within the group
+o Post-compromise security - Full compromise of a node at a
+  point in time does not reveal future messages sent within the group
+o Scalability - Resource requirements have good scaling in the
+  size of the group (preferably sub-linear)
+
+Several widely-deployed applications have developed their own
+protocols to meet these needs. While these protocols are similar,
+no two are close enough to interoperate. As a result, each application
+vendor has had to maintain their own protocol stack and independently
+build trust in the quality of the protocol. The primary goal of this
+working group is to develop a standard messaging security protocol for
+human-to-human(s) communication with the above security and deployment
+properties so that applications can share code, and so that there can be
+shared validation of the protocol (as there has been with TLS 1.3).
+Humans are assumed to have access to one or more general-purpose
+computers.
+
+It is not a goal of this group to enable interoperability/federation
+between messaging applications beyond the key establishment,
+authentication, and confidentiality services.  Full interoperability
+would require alignment at many different layers beyond security,
+e.g., standard message transport and application semantics.  The
+focus of this work is to develop a messaging security layer that
+different applications can adapt to their own needs.
+
+While authentication is a key goal of this working group, it is not
+the objective of this working group to develop new authentication
+technologies.  Rather, the security protocol developed by this
+group will provide a way to leverage existing authentication
+technologies to associate identities with keys used in the protocol,
+just as TLS does with X.509.
+
+In developing this protocol, we will draw on lessons learned from
+several prior message-oriented security protocols, in addition to
+the proprietary messaging security protocols deployed within
+existing applications:
+
+o S/MIME - https://tools.ietf.org/html/rfc5751
+o OpenPGP - https://tools.ietf.org/html/rfc4880
+o Off the Record - https://otr.cypherpunks.ca/Protocol-v3-4.1.1.html
+o Double Ratchet - https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm
+
+The intent of this working group is to follow the pattern of
+TLS 1.3, with specification, implementation, and verification
+proceeding in parallel.  By the time we arrive at RFC, we
+hope to have several interoperable implementations as well
+as a thorough security analysis.
+
+The specifications developed by this working group will be
+based on pre-standardization implementation and deployment
+experience, and generalizing the design described in:
+
+o draft-omara-mls-architecture
+o draft-barnes-mls-protocol
+
+Note that consensus is required both for changes to the protocol mechanisms
+from these documents and retention of the mechanisms from them. In particular,
+because something is in the initial document set does not imply that there is
+consensus around the feature or around how it is specified.
