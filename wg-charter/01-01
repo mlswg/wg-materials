@@ -1,5 +1,9 @@
-Several Internet applications have a need for group key establishment
-and message protection protocols with the following properties:
+The Messaging Layer Security (MLS) protocol, RFC 9420, specifies a key
+establishment protocol that provides efficient asynchronous group key
+establishment with forward secrecy (FS) and post-compromise security (PCS)
+for groups in size ranging from two to thousands.
+
+MLS has the following properties:
 
 o Message Confidentiality - Messages can only be read
   by members of the group
@@ -17,18 +21,6 @@ o Post-compromise security - Full compromise of a node at a
 o Scalability - Resource requirements have good scaling in the
   size of the group (preferably sub-linear)
 
-Several widely-deployed applications have developed their own
-protocols to meet these needs. While these protocols are similar,
-no two are close enough to interoperate. As a result, each application
-vendor has had to maintain their own protocol stack and independently
-build trust in the quality of the protocol. The primary goal of this
-working group is to develop a standard messaging security protocol for
-human-to-human(s) communication with the above security and deployment
-properties so that applications can share code, and so that there can be
-shared validation of the protocol (as there has been with TLS 1.3).
-Humans are assumed to have access to one or more general-purpose
-computers.
-
 It is not a goal of this group to enable interoperability/federation
 between messaging applications beyond the key establishment,
 authentication, and confidentiality services.  Full interoperability
@@ -39,14 +31,13 @@ different applications can adapt to their own needs.
 
 While authentication is a key goal of this working group, it is not
 the objective of this working group to develop new authentication
-technologies.  Rather, the security protocol developed by this
-group will provide a way to leverage existing authentication
-technologies to associate identities with keys used in the protocol,
-just as TLS does with X.509.
+technologies.  Rather, the MLS protocol provides a way to leverage
+existing authentication technologies to associate identities with
+keys used in the protocol, just as TLS does with X.509.
 
-In developing this protocol, we will draw on lessons learned from
-several prior message-oriented security protocols, in addition to
-the proprietary messaging security protocols deployed within
+While developing the MLS protocol, the group drew on lessons learned
+from several prior message-oriented security protocols, in addition
+to the proprietary messaging security protocols deployed within
 existing applications:
 
 o S/MIME - https://tools.ietf.org/html/rfc5751
@@ -54,20 +45,15 @@ o OpenPGP - https://tools.ietf.org/html/rfc4880
 o Off the Record - https://otr.cypherpunks.ca/Protocol-v3-4.1.1.html
 o Double Ratchet - https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm
 
-The intent of this working group is to follow the pattern of
-TLS 1.3, with specification, implementation, and verification
-proceeding in parallel.  By the time we arrive at RFC, we
-hope to have several interoperable implementations as well
-as a thorough security analysis.
-
-The specifications developed by this working group will be
-based on pre-standardization implementation and deployment
-experience, and generalizing the design described in:
-
-o draft-omara-mls-architecture
-o draft-barnes-mls-protocol
+The working group followed the pattern of TLS 1.3, with specification,
+implementation, and verification proceeding in parallel.  When we arrived
+at RFC, we had several interoperable implementations as well as a thorough
+security analysis.
 
 Note that consensus is required both for changes to the protocol mechanisms
 from these documents and retention of the mechanisms from them. In particular,
 because something is in the initial document set does not imply that there is
 consensus around the feature or around how it is specified.
+
+Now that MLS has been published the group will work on MLS protocol extensions
+and cipher suites.
