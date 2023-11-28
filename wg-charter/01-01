@@ -59,7 +59,7 @@ Now that MLS has been published the group will work on the following MLS
 protocol extensions:
 
 * Support for use of MLS in protocols developed by the MIMI working group
-* Support for Verifiable Credentials
+* Support for new credential types
 * Support for common operational patterns in messaging applications
 * Support for Post-quantum
 * Framework for safe extensibility
