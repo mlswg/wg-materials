@@ -61,7 +61,7 @@ protocol extensions:
 * Support for use of MLS in protocols developed by the MIMI working group
 * Support for new credential types
 * Support for common operational patterns in messaging applications
-* Support for Post-quantum
+* Support for quantum resistance
 * Framework for safe extensibility
 * Detection of lost application messages
 * Support for sending messages to individual members of a group
