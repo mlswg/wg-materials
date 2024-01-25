@@ -1,4 +1,9 @@
-The MLS WG will maintain the protocol (see RFC 9420) and will work on the
+The Messaging Layer Security (MLS) protocol, RFC 9420, specifies a key
+establishment protocol that provides efficient asynchronous group key
+establishment with forward secrecy (FS) and post-compromise security (PCS)
+for groups in size ranging from two to thousands.
+
+The MLS WG will maintain the protocol and will work on the
 following MLS protocol extensions:
 
 * Support for use of MLS in protocols developed by the MIMI working group
