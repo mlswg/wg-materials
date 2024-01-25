@@ -14,7 +14,7 @@ following MLS protocol extensions:
 * Detection of lost application messages
 * Support for sending messages to individual members of a group
 
-Many of extensions to support these features will be included in
+Many of the extensions to support these features will be included in
 draft-ietf-mls-extensions, but some of the extensions will be published in
 seperate specifications.
 
